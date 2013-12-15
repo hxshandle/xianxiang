@@ -1,0 +1,43 @@
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.scroll-panel {
+  .jspVerticalBar {
+    width: 5px;
+  }
+  .jspTrack {
+    background: gray;
+  }
+  .jspDrag {
+    background: #638273;
+  }
+}
+.slidesjs-previous,.slidesjs-next{
+  background: url(../img/nav-icons.png);
+  width:39px;
+  height:39px;
+  display: inline-block;
+}
+.slidesjs-previous{
+  background-position: 0 -41px;
+  &:hover{
+    background-position: 0 0px;
+  }
+}
+.slidesjs-next{
+  background-position: -48px -41px;
+  &:hover{
+    background-position: -48px 0px;
+  }
+}

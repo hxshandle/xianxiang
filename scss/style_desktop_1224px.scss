@@ -1,0 +1,307 @@
+#mainBody {
+  width: 100%;
+  position: relative;
+  min-width: 1200px;
+  overflow: hidden;
+
+  .color-font-primary {
+    color: #8aa095;
+  }
+  .color-font-secondary {
+    color: #444444;
+  }
+
+  .slidesjs-navigation {
+    text-decoration: none;
+  }
+  .container {
+    width: 1224px;
+    margin: auto;
+    position: relative;
+
+    .title {
+      margin-left: auto;
+      margin-right: auto;
+      width: 280px;
+      padding-top: 30px;
+      color: #638273;
+      .h1 {
+        text-align: right;
+        font-size: 28px;
+      }
+      .h2 {
+        text-align: right;
+        font-size: 12px;
+      }
+      .spliter {
+        height: 10px;
+        background-image: url(../img/section-header-spliter.png);
+      }
+    }
+
+  }
+
+  #home {
+    background-color: #f7fffb;
+    width: 100%;
+    #header-outer {
+      background-color: #f1fff8;
+      #header {
+        background-color: #f1fff8;
+        width: 1000px;
+        height: 60px;
+        margin: auto;
+        img {
+          display: inline-block;
+          background-color: #f1fff8;
+        }
+
+        .links {
+          display: inline-block;
+          padding-bottom: 12px;
+          padding-left: 20px;
+          li {
+            float: left;
+            padding: 0 8px;
+            border-right: 2px solid #939895;
+            margin-top: 22px;
+            a {
+              text-decoration: none;
+              color: #444444;
+              &:hover {
+                color: #111111;
+              }
+            }
+          }
+          li.last {
+            border-right: 0px;
+          }
+        }
+        // end of links
+
+        .social-icons {
+          display: inline-block;
+          float: right;
+          margin-top: 20px;
+          li {
+            float: left;
+            display: inline-block;
+            padding: 0 8px;
+            span {
+              display: inline-block;
+              width: 24px;
+              height: 24px;
+              background-image: url(../img/social-icons.png);
+            }
+            #social-weibo {
+              background-position: -7px -42px;
+              &:hover {
+                background-position: -7px -3px;
+              }
+              ;
+            }
+            #social-search {
+              background-position: -48px -42px;
+              &:hover {
+                background-position: -48px -3px;
+              }
+              ;
+            }
+            #social-qq {
+              background-position: -90px -42px;
+              &:hover {
+                background-position: -90px -3px;
+              }
+              ;
+
+            }
+          }
+        }
+        // end of social icon
+      }
+      // end of header
+    }
+    // end of header outer
+  }
+  // end of home
+
+  #new-prod {
+    width: 100%;
+    background-color: #fffcf8;
+
+    .container {
+      background-image: url(../img/section-new-prod-1224.png);
+      height: 550px;
+      position: relative;
+
+      article {
+        display: block;
+        position: absolute;
+        top: 220px;
+        left: 217px;
+        color: gray;
+        font-size: 12px;
+        width: 380px;
+
+      }
+      // end of artical
+    }
+    // end of container
+  }
+  // end of prod
+
+  #about {
+    width: 100%;
+    background-color: #f2fcfd;
+    .container {
+      background-image: url(../img/section-about-1224.png);
+      height: 560px;
+
+      .summary {
+        position: absolute;
+        left: 700px;
+        top: 195px;
+        width: 180px;
+        font-size: 9px;
+        color: #444444;
+        p {
+          line-height: 1.4em;
+        }
+      }
+      .h1 {
+        position: absolute;
+        left: 700px;
+        top: 423px;
+        font-size: 24px;
+        color: #638273;
+      }
+      .h2 {
+        position: absolute;
+        left: 700px;
+        top: 449px;
+        color: #638273;
+      }
+      .h3 {
+        position: absolute;
+        left: 700px;
+        top: 469px;
+        color: #638273;
+        width: 160px;
+        font-size: 9px;
+
+      }
+    }
+    // end of container
+
+  }
+  // end of about
+
+  #news-center {
+    width: 100%;
+    .container {
+      height: 880px;
+      width: 100%;
+      background-image: url(../img/news-center.png);
+
+      .title {
+        padding-top: 130px;
+      }
+
+      .section-top {
+        border-bottom: 1px solid #93b4a5;
+        clear: both;
+        height: 32px;
+        margin-top: 100px;
+
+        .content {
+          width: 1000px;
+          margin: auto;
+          .left {
+            .color-font-secondary {
+              font-size: 12px;
+            }
+          }
+
+          .bg-date {
+            color: #ffffff;
+            background-color: #93b4a5;
+            margin-left: 40px;
+          }
+
+        }
+        // end of content
+      }
+      // end of section top
+
+      #news {
+        width: 1000px;
+        padding-top: 16px;
+        margin: auto;
+
+        #news-articles {
+          width: 480px;
+          height: 400px;
+          .scroll-panel {
+            height: 300px;
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+        .right {
+          width: 500px;
+        }
+        // end of news articals
+      }
+      // end of news
+    }
+    // end of container
+  }
+  // end of news center
+
+  #products {
+    .container {
+      width: 100%;
+      height: 880px;
+      background: url(../img/products.png);
+
+      .nav-bar{
+        text-align: center;
+      }
+
+      .prod-outer {
+        position: relative;
+        height: 560px;
+        .scroll-prods {
+          width: 3000px;
+          clear: both;
+          position: absolute;
+          top: 20px;
+          left: 0;
+          .prod-show {
+            float: left;
+            padding-right: 1px;
+            position: relative;
+
+            .image-overlay{
+              position: absolute;
+              display: block;
+              color: aliceblue;
+              background: rgba(0,0,0,0.5);
+              width: 330px;
+              height: 530px;
+              top: 0px;
+              left: 0px;
+              cursor: pointer;
+            }
+          }
+        }
+        // end of scroll_ulNew
+      }
+      // end of prod outer
+
+    }
+  }
+}
+
+// end of mainBody
