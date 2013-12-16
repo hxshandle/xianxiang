@@ -4,6 +4,9 @@ $(function () {
   $("#news-articles .slidesjs-container").css({'height':'300px','margin-bottom':'7px'});
   $(".prod-show a").colorbox();
 
+  $("#province-sel").selectbox({classHolder:"sbHolder province-sel"});
+  $("#store-sel").selectbox();
+
   $(".scroll-prods div").on('mouseover',function(){
     $(this).find(".image-overlay").hide();
   });
