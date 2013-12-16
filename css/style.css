@@ -44,7 +44,8 @@
     width: 100%;
     position: relative;
     min-width: 1200px;
-    overflow: hidden; }
+    overflow: hidden;
+    font-family: Arial; }
     #mainBody .color-font-primary {
       color: #8aa095; }
     #mainBody .color-font-secondary {
@@ -63,7 +64,8 @@
         color: #638273; }
         #mainBody .container .title .h1 {
           text-align: right;
-          font-size: 28px; }
+          font-size: 36px;
+          font-fam: Didot; }
         #mainBody .container .title .h2 {
           text-align: right;
           font-size: 12px; }
@@ -106,7 +108,8 @@
           color: #999;
           font-size: 10px;
           text-align: center;
-          margin-top: 12px; }
+          margin-top: 12px;
+          font-family: arial; }
           #mainBody #home .container .landing-outer .description p {
             margin: 0; }
       #mainBody #home .container .landing-footer {
@@ -126,7 +129,7 @@
             #mainBody #home .container .landing-footer #header-outer #header .links {
               display: inline-block;
               padding-bottom: 12px;
-              padding-left: 20px;
+              padding-left: 50px;
               font-family: Microsoft Yahei; }
               #mainBody #home .container .landing-footer #header-outer #header .links li {
                 float: left;
@@ -180,7 +183,7 @@
         #mainBody #new-prod .container article {
           display: block;
           position: absolute;
-          top: 220px;
+          top: 240px;
           left: 217px;
           color: gray;
           font-size: 12px;
@@ -197,7 +200,8 @@
           top: 195px;
           width: 180px;
           font-size: 9px;
-          color: #444444; }
+          color: #444444;
+          font-family: Microsoft YaHei; }
           #mainBody #about .container .summary p {
             line-height: 1.4em; }
         #mainBody #about .container .h1 {
@@ -205,12 +209,14 @@
           left: 700px;
           top: 423px;
           font-size: 24px;
-          color: #638273; }
+          color: #638273;
+          font-family: Didot; }
         #mainBody #about .container .h2 {
           position: absolute;
           left: 700px;
           top: 449px;
-          color: #638273; }
+          color: #638273;
+          font-family: Didot; }
         #mainBody #about .container .h3 {
           position: absolute;
           left: 700px;

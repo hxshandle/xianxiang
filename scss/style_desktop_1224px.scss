@@ -3,6 +3,7 @@
   position: relative;
   min-width: 1200px;
   overflow: hidden;
+  font-family: Arial;
 
   .color-font-primary {
     color: #8aa095;
@@ -27,7 +28,8 @@
       color: #638273;
       .h1 {
         text-align: right;
-        font-size: 28px;
+        font-size: 36px;
+        font-fam: Didot;;
       }
       .h2 {
         text-align: right;
@@ -93,6 +95,7 @@
           font-size: 10px;
           text-align: center;
           margin-top: 12px;
+          font-family: arial;
           p {
             margin: 0;
           }
@@ -117,7 +120,7 @@
             .links {
               display: inline-block;
               padding-bottom: 12px;
-              padding-left: 20px;
+              padding-left: 50px;
               font-family: Microsoft Yahei;
               li {
                 float: left;
@@ -207,7 +210,7 @@
       article {
         display: block;
         position: absolute;
-        top: 220px;
+        top: 240px;
         left: 217px;
         color: gray;
         font-size: 12px;
@@ -234,6 +237,7 @@
         width: 180px;
         font-size: 9px;
         color: #444444;
+        font-family: Microsoft YaHei;
         p {
           line-height: 1.4em;
         }
@@ -244,12 +248,14 @@
         top: 423px;
         font-size: 24px;
         color: #638273;
+        font-family: Didot;
       }
       .h2 {
         position: absolute;
         left: 700px;
         top: 449px;
         color: #638273;
+        font-family: Didot;
       }
       .h3 {
         position: absolute;
