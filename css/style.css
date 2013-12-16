@@ -224,6 +224,8 @@
             position: relative; }
             #mainBody #products .container .prod-outer .scroll-prods .prod-show a:focus {
               outline: none; }
+            #mainBody #products .container .prod-outer .scroll-prods .prod-show a img {
+              border: 0px; }
             #mainBody #products .container .prod-outer .scroll-prods .prod-show .image-overlay {
               position: absolute;
               display: block;
