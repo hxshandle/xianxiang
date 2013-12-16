@@ -3,6 +3,7 @@ $(function () {
   $("#news-articles").slidesjs({pagination: {active: false}, navigation: {active: false}});
   $("#news-articles .slidesjs-container").css({'height':'300px','margin-bottom':'7px'});
   $(".prod-show a").colorbox();
+  $('#header .links a').smoothScroll();
 
   $("#province-sel").selectbox({classHolder:"sbHolder province-sel"});
   $("#store-sel").selectbox();
@@ -15,6 +16,7 @@ $(function () {
   });
 
 });
+
 
 
 // loading progress
