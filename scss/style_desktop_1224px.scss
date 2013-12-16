@@ -265,7 +265,7 @@
       height: 880px;
       background: url(../img/products.png);
 
-      .nav-bar{
+      .nav-bar {
         text-align: center;
       }
 
@@ -283,11 +283,17 @@
             padding-right: 1px;
             position: relative;
 
-            .image-overlay{
+            a{
+              &:focus{
+                outline: none;
+              }
+            }
+
+            .image-overlay {
               position: absolute;
               display: block;
               color: aliceblue;
-              background: rgba(0,0,0,0.5);
+              background: rgba(0, 0, 0, 0.5);
               width: 330px;
               height: 530px;
               top: 0px;
@@ -295,6 +301,7 @@
               cursor: pointer;
             }
           }
+          // end of prod-show
         }
         // end of scroll_ulNew
       }

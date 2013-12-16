@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/common.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style_desktop_1224px.scss" afterPath="$PROJECT_DIR$/scss/style_desktop_1224px.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/xianxiang.iml" afterPath="$PROJECT_DIR$/.idea/xianxiang.iml" />
     </list>
     <ignored path="xianxiang.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387100251300" ignored="false" />
     <file path="/index.html" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387109430882" ignored="false" />
-    <file path="/style_desktop_1224px.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387108777616" ignored="false" />
+    <file path="/style_desktop_1224px.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387163335655" ignored="false" />
     <file path="/dummy.xml" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387099809833" ignored="false" />
-    <file path="/main.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387108831366" ignored="false" />
+    <file path="/main.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387160157714" ignored="false" />
     <file path="/common.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387093149646" ignored="false" />
     <file path="/style.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387075619623" ignored="false" />
+    <file path="$PROJECT_DIR$/css/style.css" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387163272140" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +39,10 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="48" selection-start="7781" selection-end="7781" vertical-scroll-proportion="-11.875">
+            <state line="199" column="63" selection-start="7796" selection-end="7796" vertical-scroll-proportion="-9.375">
               <folding>
-                <marker date="1387110029000" expanded="true" signature="1029:1277" placeholder="..." />
-                <marker date="1387110029000" expanded="true" signature="1122:1148" placeholder="..." />
+                <marker date="1387163299000" expanded="true" signature="1029:1277" placeholder="..." />
+                <marker date="1387163299000" expanded="true" signature="1122:1148" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -53,7 +51,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="33" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+            <state line="48" column="29" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style_desktop_1224px.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style_desktop_1224px.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/style_desktop_1224px.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="294" column="28" selection-start="5972" selection-end="5972" vertical-scroll-proportion="0.0">
+            <state line="287" column="28" selection-start="5738" selection-end="5738" vertical-scroll-proportion="0.42477876">
               <folding />
             </state>
           </provider>
@@ -86,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.8382353">
+            <state line="45" column="18" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,17 +112,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/scss/common.scss" />
-        <option value="$PROJECT_DIR$/scss/style_desktop_1224px.scss" />
+        <option value="$PROJECT_DIR$/scss/style.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scss/style.scss" />
+        <option value="$PROJECT_DIR$/scss/style_desktop_1224px.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="828" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -268,7 +266,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="828" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -354,8 +352,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1387110029000" expanded="true" signature="1029:1277" placeholder="..." />
-            <marker date="1387110029000" expanded="true" signature="1122:1148" placeholder="..." />
+            <marker date="1387163299000" expanded="true" signature="1029:1277" placeholder="..." />
+            <marker date="1387163299000" expanded="true" signature="1122:1148" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -418,33 +416,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/style_desktop_1224px.scss">
+    <entry file="file://$PROJECT_DIR$/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="294" column="28" selection-start="5972" selection-end="5972" vertical-scroll-proportion="0.0">
+        <state line="45" column="18" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="33" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+        <state line="48" column="29" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="48" selection-start="7781" selection-end="7781" vertical-scroll-proportion="-11.875">
+        <state line="199" column="63" selection-start="7796" selection-end="7796" vertical-scroll-proportion="-9.375">
           <folding>
-            <marker date="1387110029000" expanded="true" signature="1029:1277" placeholder="..." />
-            <marker date="1387110029000" expanded="true" signature="1122:1148" placeholder="..." />
+            <marker date="1387163299000" expanded="true" signature="1029:1277" placeholder="..." />
+            <marker date="1387163299000" expanded="true" signature="1122:1148" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/style.scss">
+    <entry file="file://$PROJECT_DIR$/scss/style_desktop_1224px.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.8382353">
+        <state line="287" column="28" selection-start="5738" selection-end="5738" vertical-scroll-proportion="0.42477876">
           <folding />
         </state>
       </provider>

@@ -28,7 +28,7 @@ $(function(){
       prevAllow = false;
       scrollUlLeft = scrollUlLeft - scrollUlWidth;
       $('.scroll-prods').css('left', scrollUlLeft);
-      $('.scroll-prods div:last').clone().prependTo('.scroll-prods');
+      $('.scroll-prods div:last').clone(true,true).prependTo('.scroll-prods');
       $('.scroll-prods div:last').remove();
       $('.scroll-prods').animate({
         left : scrollUlLeft + scrollUlWidth
@@ -49,7 +49,7 @@ $(function(){
         scrollUlLeft = parseInt($('.scroll-prods').css('left'), 10);
         scrollUlLeft = scrollUlLeft + scrollUlWidth;
         $('.scroll-prods').css('left', scrollUlLeft);
-        $('.scroll-prods div:first').clone().appendTo('.scroll-prods');
+        $('.scroll-prods div:first').clone(true,true).appendTo('.scroll-prods');
         $('.scroll-prods div:first').remove();
         nextAllow = true;
       })
