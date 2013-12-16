@@ -17,6 +17,24 @@ $(function () {
 });
 
 
+// loading progress
+
+$(function(){
+  var timer = setInterval(progress,100);
+  var val = 0,progressEl = $(".greyscale"),progressTextEl = $(".progress-text");
+
+
+  function progress(){
+    val++;
+    progressEl.css({height:(100-val)});
+    progressTextEl.text(val+"%");
+    if(val==100){
+      clearInterval(timer);
+    }
+  }
+});
+
+
 
 
 //product scroll
@@ -58,5 +76,4 @@ $(function(){
       })
     }
   });
-
 })

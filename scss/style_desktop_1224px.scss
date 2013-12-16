@@ -15,7 +15,7 @@
     text-decoration: none;
   }
   .container {
-    width: 1224px;
+    width: 100%;
     margin: auto;
     position: relative;
 
@@ -42,86 +42,149 @@
   }
 
   #home {
-    background-color: #f7fffb;
-    width: 100%;
-    #header-outer {
-      background-color: #f1fff8;
-      #header {
-        background-color: #f1fff8;
-        width: 1000px;
-        height: 60px;
-        margin: auto;
-        img {
-          display: inline-block;
-          background-color: #f1fff8;
+    .container {
+      background-color: #f7fffb;
+      width: 100%;
+      background: url(../img/landing-bg.png);
+      height: 730px;
+      .landing-outer {
+        padding-top:150px;
+        .a {
         }
 
-        .links {
-          display: inline-block;
-          padding-bottom: 12px;
-          padding-left: 20px;
-          li {
-            float: left;
-            padding: 0 8px;
-            border-right: 2px solid #939895;
-            margin-top: 22px;
-            a {
-              text-decoration: none;
-              color: #444444;
-              &:hover {
-                color: #111111;
-              }
-            }
+        .progress {
+          position: relative;
+          margin: auto;
+          width: 126px;
+          height: 100px;
+
+          .progress-icon {
+            position: absolute;
+            width: 126px;
+            height: 100px;
           }
-          li.last {
-            border-right: 0px;
+          .colored {
+            background: url(../img/progress-color.png);
+          }
+          .greyscale {
+            background: url(../img/progress-gray.png);
+          }
+
+        }
+        // end of progress
+        .progress-text {
+          text-align: center;
+          font-family: btseps2;
+          font-size: 48px;
+          color: #729f88;
+          font-weight: bold;
+        }
+        // end of progress text
+
+        .logo {
+          text-align: center;
+          width: 110px;
+          margin: auto;
+        }
+        .description {
+          margin: auto;
+          width: 400px;
+          color: #999;
+          font-size: 10px;
+          text-align: center;
+          margin-top: 12px;
+          p {
+            margin: 0;
           }
         }
-        // end of links
-
-        .social-icons {
-          display: inline-block;
-          float: right;
-          margin-top: 20px;
-          li {
-            float: left;
-            display: inline-block;
-            padding: 0 8px;
-            span {
-              display: inline-block;
-              width: 24px;
-              height: 24px;
-              background-image: url(../img/social-icons.png);
-            }
-            #social-weibo {
-              background-position: -7px -42px;
-              &:hover {
-                background-position: -7px -3px;
-              }
-              ;
-            }
-            #social-search {
-              background-position: -48px -42px;
-              &:hover {
-                background-position: -48px -3px;
-              }
-              ;
-            }
-            #social-qq {
-              background-position: -90px -42px;
-              &:hover {
-                background-position: -90px -3px;
-              }
-              ;
-
-            }
-          }
-        }
-        // end of social icon
       }
-      // end of header
+      .landing-footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        #header-outer {
+          background-color: #f1fff8;
+          #header {
+            background-color: #f1fff8;
+            width: 1000px;
+            height: 60px;
+            margin: auto;
+            img {
+              display: inline-block;
+              background-color: #f1fff8;
+            }
+
+            .links {
+              display: inline-block;
+              padding-bottom: 12px;
+              padding-left: 20px;
+              font-family: Microsoft Yahei;
+              li {
+                float: left;
+                padding: 0 8px;
+                border-right: 2px solid #939895;
+                margin-top: 22px;
+                a {
+                  text-decoration: none;
+                  color: #444444;
+                  &:hover {
+                    color: #111111;
+                  }
+                }
+              }
+              li.last {
+                border-right: 0px;
+              }
+            }
+            // end of links
+
+            .social-icons {
+              display: inline-block;
+              float: right;
+              margin-top: 20px;
+              li {
+                float: left;
+                display: inline-block;
+                padding: 0 8px;
+                span {
+                  display: inline-block;
+                  width: 24px;
+                  height: 24px;
+                  background-image: url(../img/social-icons.png);
+                }
+                #social-weibo {
+                  background-position: -7px -42px;
+                  &:hover {
+                    background-position: -7px -3px;
+                  }
+                  ;
+                }
+                #social-search {
+                  background-position: -48px -42px;
+                  &:hover {
+                    background-position: -48px -3px;
+                  }
+                  ;
+                }
+                #social-qq {
+                  background-position: -90px -42px;
+                  &:hover {
+                    background-position: -90px -3px;
+                  }
+                  ;
+
+                }
+              }
+            }
+            // end of social icon
+          }
+          // end of header
+        }
+        // end of header outer
+      }
+      // end of landing footer
     }
-    // end of header outer
+    // end of container
   }
   // end of home
 
@@ -130,9 +193,16 @@
     background-color: #fffcf8;
 
     .container {
-      background-image: url(../img/section-new-prod-1224.png);
-      height: 550px;
+      background-image: url(../img/home2.png);
+      height: 880px;
       position: relative;
+      width: 100%;
+
+      #new-prod-text {
+        position: absolute;
+        left: 217px;
+        top: 97px;
+      }
 
       article {
         display: block;
@@ -346,16 +416,16 @@
   }
   // enf of store
 
-  #vip-center{
-    .container{
-      width:100%;
-      height:880px;
+  #vip-center {
+    .container {
+      width: 100%;
+      height: 880px;
       background: url(../img/vip-center.png);
 
-      .login{
-        width:1000px;
-        height:500px;
-        margin:auto;
+      .login {
+        width: 1000px;
+        height: 500px;
+        margin: auto;
         background: url(../img/login-bg.png) no-repeat 50% 0;
       }
     }

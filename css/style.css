@@ -36,6 +36,10 @@
     .slidesjs-next:hover {
       background-position: -48px 0px; }
 
+  @font-face {
+    font-family: btseps2;
+    src: url(../fonts/btseps2.ttf); }
+
   #mainBody {
     width: 100%;
     position: relative;
@@ -48,7 +52,7 @@
     #mainBody .slidesjs-navigation {
       text-decoration: none; }
     #mainBody .container {
-      width: 1224px;
+      width: 100%;
       margin: auto;
       position: relative; }
       #mainBody .container .title {
@@ -66,67 +70,113 @@
         #mainBody .container .title .spliter {
           height: 10px;
           background-image: url(../img/section-header-spliter.png); }
-    #mainBody #home {
+    #mainBody #home .container {
       background-color: #f7fffb;
-      width: 100%; }
-      #mainBody #home #header-outer {
-        background-color: #f1fff8; }
-        #mainBody #home #header-outer #header {
-          background-color: #f1fff8;
-          width: 1000px;
-          height: 60px;
+      width: 100%;
+      background: url(../img/landing-bg.png);
+      height: 730px; }
+      #mainBody #home .container .landing-outer {
+        padding-top: 150px; }
+        #mainBody #home .container .landing-outer .progress {
+          position: relative;
+          margin: auto;
+          width: 126px;
+          height: 100px; }
+          #mainBody #home .container .landing-outer .progress .progress-icon {
+            position: absolute;
+            width: 126px;
+            height: 100px; }
+          #mainBody #home .container .landing-outer .progress .colored {
+            background: url(../img/progress-color.png); }
+          #mainBody #home .container .landing-outer .progress .greyscale {
+            background: url(../img/progress-gray.png); }
+        #mainBody #home .container .landing-outer .progress-text {
+          text-align: center;
+          font-family: btseps2;
+          font-size: 48px;
+          color: #729f88;
+          font-weight: bold; }
+        #mainBody #home .container .landing-outer .logo {
+          text-align: center;
+          width: 110px;
           margin: auto; }
-          #mainBody #home #header-outer #header img {
-            display: inline-block;
-            background-color: #f1fff8; }
-          #mainBody #home #header-outer #header .links {
-            display: inline-block;
-            padding-bottom: 12px;
-            padding-left: 20px; }
-            #mainBody #home #header-outer #header .links li {
-              float: left;
-              padding: 0 8px;
-              border-right: 2px solid #939895;
-              margin-top: 22px; }
-              #mainBody #home #header-outer #header .links li a {
-                text-decoration: none;
-                color: #444444; }
-                #mainBody #home #header-outer #header .links li a:hover {
-                  color: #111111; }
-            #mainBody #home #header-outer #header .links li.last {
-              border-right: 0px; }
-          #mainBody #home #header-outer #header .social-icons {
-            display: inline-block;
-            float: right;
-            margin-top: 20px; }
-            #mainBody #home #header-outer #header .social-icons li {
-              float: left;
+        #mainBody #home .container .landing-outer .description {
+          margin: auto;
+          width: 400px;
+          color: #999;
+          font-size: 10px;
+          text-align: center;
+          margin-top: 12px; }
+          #mainBody #home .container .landing-outer .description p {
+            margin: 0; }
+      #mainBody #home .container .landing-footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%; }
+        #mainBody #home .container .landing-footer #header-outer {
+          background-color: #f1fff8; }
+          #mainBody #home .container .landing-footer #header-outer #header {
+            background-color: #f1fff8;
+            width: 1000px;
+            height: 60px;
+            margin: auto; }
+            #mainBody #home .container .landing-footer #header-outer #header img {
               display: inline-block;
-              padding: 0 8px; }
-              #mainBody #home #header-outer #header .social-icons li span {
+              background-color: #f1fff8; }
+            #mainBody #home .container .landing-footer #header-outer #header .links {
+              display: inline-block;
+              padding-bottom: 12px;
+              padding-left: 20px;
+              font-family: Microsoft Yahei; }
+              #mainBody #home .container .landing-footer #header-outer #header .links li {
+                float: left;
+                padding: 0 8px;
+                border-right: 2px solid #939895;
+                margin-top: 22px; }
+                #mainBody #home .container .landing-footer #header-outer #header .links li a {
+                  text-decoration: none;
+                  color: #444444; }
+                  #mainBody #home .container .landing-footer #header-outer #header .links li a:hover {
+                    color: #111111; }
+              #mainBody #home .container .landing-footer #header-outer #header .links li.last {
+                border-right: 0px; }
+            #mainBody #home .container .landing-footer #header-outer #header .social-icons {
+              display: inline-block;
+              float: right;
+              margin-top: 20px; }
+              #mainBody #home .container .landing-footer #header-outer #header .social-icons li {
+                float: left;
                 display: inline-block;
-                width: 24px;
-                height: 24px;
-                background-image: url(../img/social-icons.png); }
-              #mainBody #home #header-outer #header .social-icons li #social-weibo {
-                background-position: -7px -42px; }
-                #mainBody #home #header-outer #header .social-icons li #social-weibo:hover {
-                  background-position: -7px -3px; }
-              #mainBody #home #header-outer #header .social-icons li #social-search {
-                background-position: -48px -42px; }
-                #mainBody #home #header-outer #header .social-icons li #social-search:hover {
-                  background-position: -48px -3px; }
-              #mainBody #home #header-outer #header .social-icons li #social-qq {
-                background-position: -90px -42px; }
-                #mainBody #home #header-outer #header .social-icons li #social-qq:hover {
-                  background-position: -90px -3px; }
+                padding: 0 8px; }
+                #mainBody #home .container .landing-footer #header-outer #header .social-icons li span {
+                  display: inline-block;
+                  width: 24px;
+                  height: 24px;
+                  background-image: url(../img/social-icons.png); }
+                #mainBody #home .container .landing-footer #header-outer #header .social-icons li #social-weibo {
+                  background-position: -7px -42px; }
+                  #mainBody #home .container .landing-footer #header-outer #header .social-icons li #social-weibo:hover {
+                    background-position: -7px -3px; }
+                #mainBody #home .container .landing-footer #header-outer #header .social-icons li #social-search {
+                  background-position: -48px -42px; }
+                  #mainBody #home .container .landing-footer #header-outer #header .social-icons li #social-search:hover {
+                    background-position: -48px -3px; }
+                #mainBody #home .container .landing-footer #header-outer #header .social-icons li #social-qq {
+                  background-position: -90px -42px; }
+                  #mainBody #home .container .landing-footer #header-outer #header .social-icons li #social-qq:hover {
+                    background-position: -90px -3px; }
     #mainBody #new-prod {
       width: 100%;
       background-color: #fffcf8; }
       #mainBody #new-prod .container {
-        background-image: url(../img/section-new-prod-1224.png);
-        height: 550px;
-        position: relative; }
+        background-image: url(../img/home2.png);
+        height: 880px;
+        position: relative;
+        width: 100%; }
+        #mainBody #new-prod .container #new-prod-text {
+          position: absolute;
+          left: 217px;
+          top: 97px; }
         #mainBody #new-prod .container article {
           display: block;
           position: absolute;
