@@ -195,12 +195,12 @@
         #mainBody #new-prod .container #new-prod-text {
           position: absolute;
           left: 217px;
-          top: 97px;
+          top: 200px;
           z-index: 999; }
         #mainBody #new-prod .container article {
           display: block;
           position: absolute;
-          top: 240px;
+          top: 330px;
           left: 217px;
           color: gray;
           font-size: 12px;
