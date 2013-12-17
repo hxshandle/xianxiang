@@ -15,7 +15,30 @@ $(function () {
     $(this).find(".image-overlay").show();
   });
 
+  function adjHomeTextPos(){
+    var left = $("#logo").offset().left;
+    $("#new-prod-text,#new-prod-desc").css("left",left);
+  }
+  //resize
+  $(window).resize(adjHomeTextPos);
+  adjHomeTextPos();
+
+
 });
+
+
+//parallary
+$(function(){
+  $('#landing-1').parallax(0, 0.5,true);
+  $('#landing-2').parallax(0, 0.5,true);
+
+  $('#cookie-1').parallax(0, 0.5,true);
+  $('#cookie-2').parallax(0, 0.5,true);
+  $('#cookie-3').parallax(0, 0.5,true);
+});
+
+
+
 
 
 
