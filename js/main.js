@@ -18,6 +18,7 @@ $(function () {
   function adjHomeTextPos(){
     var left = $("#logo").offset().left;
     $("#new-prod-text,#new-prod-desc").css("left",left);
+    $("#home-girl").css("left",left+350);
   }
   //resize
   $(window).resize(adjHomeTextPos);
