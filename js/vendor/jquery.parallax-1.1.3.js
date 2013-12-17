@@ -12,6 +12,7 @@ http://www.gnu.org/licenses/gpl.html
 */
 
 (function( $ ){
+  var tmp = 0;
 	var $window = $(window);
 	var windowHeight = $window.height();
 
@@ -19,9 +20,10 @@ http://www.gnu.org/licenses/gpl.html
 		windowHeight = $window.height();
 	});
 
-	$.fn.parallax = function(xpos, speedFactor, outerHeight) {
+	$.fn.parallax = function(xpos, speedFactor,animateDue, outerHeight) {
 		var $this = $(this);
 		var getHeight;
+    animateDue = animateDue || 0;
 		var firstTop;
     var originalBackgroundPosY;
 		var paddingTop = 0;
@@ -61,8 +63,10 @@ http://www.gnu.org/licenses/gpl.html
 					return;
 				}
         var adjPosY = Math.round((firstTop - pos) * speedFactor*-1) + parseInt(originalBackgroundPosY);
-        //console.log(adjPosY);
-				$this.css('backgroundPosition', xpos + " " + adjPosY + "px");
+				//$this.css('backgroundPosition', xpos + " " + adjPosY + "px");
+        var ss = xpos + " " + adjPosY + "px";
+        $this.stop().animate({"backgroundPosition":ss},tmp);
+        tmp=animateDue;
 			});
 		}		
 

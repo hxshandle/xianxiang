@@ -30,12 +30,12 @@ $(function () {
 
 //parallary
 $(function(){
-  $('#landing-1').parallax(0, 0.5,true);
-  $('#landing-2').parallax(0, 0.5,true);
+  $('#landing-1').parallax(0, 0.1,800);
+  $('#landing-2').parallax(0, 0.2,1000);
 
-  $('#cookie-1').parallax(0, 0.5,true);
-  $('#cookie-2').parallax(0, 0.5,true);
-  $('#cookie-3').parallax(0, 0.5,true);
+  $('#cookie-1').parallax(0, 0.2,800);
+  $('#cookie-2').parallax(0, 0.2,500);
+  $('#cookie-3').parallax(0, 0.2,300);
 });
 
 
