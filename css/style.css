@@ -230,73 +230,132 @@
       width: 100%;
       background-color: #f2fcfd; }
       #mainBody #about .container {
-        background-image: url(../img/section-about-1224.png);
-        height: 560px; }
-        #mainBody #about .container .summary {
+        height: 880px; }
+        #mainBody #about .container #about-cookies #about-cookie-1 {
+          background: url(../img/cookies/about-cookie-1.png) no-repeat 0 0;
+          width: 424px;
+          height: 880px;
+          left: 150px; }
+        #mainBody #about .container #about-cookies #about-cookie-2 {
+          background: url(../img/cookies/about-cookie-2.png) no-repeat 0 500px;
+          width: 144px;
+          height: 880px;
+          left: 140px; }
+        #mainBody #about .container #about-cookies #about-cookie-3 {
+          background: url(../img/cookies/about-cookie-3.png) no-repeat 0 200px;
+          width: 326px;
+          height: 880px;
+          right: 0px; }
+        #mainBody #about .container #about-cookies #about-cookie-4 {
+          background: url(../img/cookies/about-cookie-4.png) no-repeat 0 230px;
+          width: 560px;
+          height: 880px;
+          left: 700px; }
+        #mainBody #about .container #about-cookies #about-girl {
+          background: url(../img/cookies/about-girl.png) no-repeat 0 0;
+          width: 630px;
+          height: 880px;
+          top: 150px;
+          left: 200px; }
+        #mainBody #about .container .about-summary-outer {
           position: absolute;
-          left: 700px;
-          top: 195px;
-          width: 180px;
-          font-size: 9px;
-          color: #444444;
-          font-family: Microsoft YaHei; }
-          #mainBody #about .container .summary p {
-            line-height: 1.4em; }
-        #mainBody #about .container .h1 {
-          position: absolute;
-          left: 700px;
-          top: 423px;
-          font-size: 24px;
-          color: #638273;
-          font-family: Didot; }
-        #mainBody #about .container .h2 {
-          position: absolute;
-          left: 700px;
-          top: 449px;
-          color: #638273;
-          font-family: Didot; }
-        #mainBody #about .container .h3 {
-          position: absolute;
-          left: 700px;
-          top: 469px;
-          color: #638273;
-          width: 160px;
-          font-size: 9px; }
+          left: 900px;
+          z-index: 999;
+          top: 320px; }
+          #mainBody #about .container .about-summary-outer #about-summary .jspVerticalBar {
+            background: url(../img/cookies/about-scroll-bg.png) repeat-y 4px 5px;
+            width: 26px; }
+            #mainBody #about .container .about-summary-outer #about-summary .jspVerticalBar .jspTrack {
+              background: url(..); }
+              #mainBody #about .container .about-summary-outer #about-summary .jspVerticalBar .jspTrack .jspDrag {
+                background: url(../img/cookies/about-scroll-leaf.png) no-repeat; }
+          #mainBody #about .container .about-summary-outer .summary {
+            width: 300px;
+            height: 300px;
+            font-size: 12px;
+            color: #444444;
+            font-family: Microsoft YaHei; }
+            #mainBody #about .container .about-summary-outer .summary p {
+              margin: 0px; }
+          #mainBody #about .container .about-summary-outer .h1 {
+            left: 700px;
+            top: 423px;
+            font-size: 30px;
+            color: #638273;
+            font-family: Didot;
+            display: block;
+            margin-top: 36px; }
+          #mainBody #about .container .about-summary-outer .h2 {
+            left: 700px;
+            top: 449px;
+            color: #638273;
+            font-family: Didot;
+            font-size: 20px;
+            display: block; }
+          #mainBody #about .container .about-summary-outer .h3 {
+            left: 700px;
+            top: 469px;
+            color: #638273;
+            width: 250px;
+            font-size: 12px;
+            display: block;
+            margin-top: 8px; }
     #mainBody #news-center {
       width: 100%; }
       #mainBody #news-center .container {
         height: 880px;
         width: 100%;
-        background-image: url(../img/news-center.png); }
+        background: #f7ffff; }
+        #mainBody #news-center .container #news-center-mask {
+          background: url(../img/news-center-mask.png) no-repeat;
+          position: absolute;
+          opacity: 0.80;
+          z-index: 100;
+          height: 524px;
+          width: 100%; }
         #mainBody #news-center .container .title {
           padding-top: 130px; }
-        #mainBody #news-center .container .section-top {
-          border-bottom: 1px solid #93b4a5;
-          clear: both;
-          height: 32px;
-          margin-top: 100px; }
-          #mainBody #news-center .container .section-top .content {
-            width: 1000px;
-            margin: auto; }
-            #mainBody #news-center .container .section-top .content .left .color-font-secondary {
-              font-size: 12px; }
-            #mainBody #news-center .container .section-top .content .bg-date {
-              color: #ffffff;
-              background-color: #93b4a5;
-              margin-left: 40px; }
+        #mainBody #news-center .container .content-outer {
+          position: relative;
+          z-index: 1111; }
+          #mainBody #news-center .container .content-outer .section-top {
+            border-bottom: 1px solid #93b4a5;
+            clear: both;
+            height: 32px;
+            margin-top: 70px; }
+            #mainBody #news-center .container .content-outer .section-top .content {
+              width: 1000px;
+              margin: auto; }
+              #mainBody #news-center .container .content-outer .section-top .content .left .color-font-secondary {
+                font-size: 12px; }
+              #mainBody #news-center .container .content-outer .section-top .content .bg-date {
+                color: #ffffff;
+                background-color: #93b4a5;
+                margin-left: 40px; }
         #mainBody #news-center .container #news {
           width: 1000px;
           padding-top: 16px;
           margin: auto; }
           #mainBody #news-center .container #news #news-articles {
             width: 480px;
-            height: 400px; }
+            height: 600px; }
             #mainBody #news-center .container #news #news-articles .scroll-panel {
               height: 300px; }
               #mainBody #news-center .container #news #news-articles .scroll-panel p {
                 font-size: 12px; }
+            #mainBody #news-center .container #news #news-articles #news-nav-bar {
+              position: relative; }
+              #mainBody #news-center .container #news #news-articles #news-nav-bar #next-news {
+                position: absolute;
+                left: 100px;
+                top: 10px;
+                font-size: 12px;
+                color: #638273;
+                font-family: Microsoft YaHei; }
           #mainBody #news-center .container #news .right {
-            width: 500px; }
+            width: 500px;
+            height: 300px;
+            overflow: hidden; }
     #mainBody #products .container {
       width: 100%;
       height: 880px;
