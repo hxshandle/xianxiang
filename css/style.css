@@ -43,65 +43,114 @@
     font-family: btseps2;
     src: url(../fonts/btseps2.ttf); }
 
-  .landing-footer {
+  #landing .container {
+    background-color: #f7fffb;
+    width: 100%;
+    height: 730px; }
+    #landing .container #landing-cookies #landing-1 {
+      left: 30%;
+      width: 137px;
+      height: 880px;
+      background: url(../img/cookies/landing-cookie-1.png) no-repeat 0 50px; }
+    #landing .container #landing-cookies #landing-2 {
+      left: 60%;
+      top: 100px;
+      width: 188px;
+      height: 880px;
+      background: url(../img/cookies/landing-cookie-2.png) no-repeat 0 100px; }
+    #landing .container .landing-outer {
+      padding-top: 150px; }
+      #landing .container .landing-outer .progress {
+        position: relative;
+        margin: auto;
+        width: 126px;
+        height: 100px; }
+        #landing .container .landing-outer .progress .progress-icon {
+          position: absolute;
+          width: 126px;
+          height: 100px; }
+        #landing .container .landing-outer .progress .colored {
+          background: url(../img/progress-color.png); }
+        #landing .container .landing-outer .progress .greyscale {
+          background: url(../img/progress-gray.png); }
+      #landing .container .landing-outer .progress-text {
+        text-align: center;
+        font-family: btseps2;
+        font-size: 40px;
+        color: #729f88; }
+      #landing .container .landing-outer .logo {
+        text-align: center;
+        width: 110px;
+        margin: auto; }
+      #landing .container .landing-outer .description {
+        margin: auto;
+        width: 400px;
+        color: #999;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 12px;
+        font-family: arial; }
+        #landing .container .landing-outer .description p {
+          margin: 0; }
+
+  .fly-header {
     position: absolute;
     width: 100%;
-    top: 672px;
-    z-index: 999;
+    z-index: 99999;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
-    .landing-footer #header-outer {
+    .fly-header #header-outer {
       background-color: #f1fff8; }
-      .landing-footer #header-outer #header {
+      .fly-header #header-outer #header {
         background-color: #f1fff8;
         width: 1000px;
         height: 60px;
         margin: auto; }
-        .landing-footer #header-outer #header img {
+        .fly-header #header-outer #header img {
           display: inline-block;
           background-color: #f1fff8; }
-        .landing-footer #header-outer #header .links {
+        .fly-header #header-outer #header .links {
           display: inline-block;
           padding-bottom: 20px;
           padding-left: 50px; }
-          .landing-footer #header-outer #header .links li {
+          .fly-header #header-outer #header .links li {
             float: left;
             padding: 0 22px;
             border-right: 2px solid #939895;
             margin-top: 22px;
             line-height: 12px; }
-            .landing-footer #header-outer #header .links li a {
+            .fly-header #header-outer #header .links li a {
               text-decoration: none;
               color: #333;
               font-family: Microsoft Yahei;
               font-size: 12px; }
-              .landing-footer #header-outer #header .links li a:hover {
+              .fly-header #header-outer #header .links li a:hover {
                 color: #729f88; }
-          .landing-footer #header-outer #header .links li.last {
+          .fly-header #header-outer #header .links li.last {
             border-right: 0px; }
-        .landing-footer #header-outer #header .social-icons {
+        .fly-header #header-outer #header .social-icons {
           display: inline-block;
           float: right;
           margin-top: 20px; }
-          .landing-footer #header-outer #header .social-icons li {
+          .fly-header #header-outer #header .social-icons li {
             float: left;
             display: inline-block;
             padding: 0 8px; }
-            .landing-footer #header-outer #header .social-icons li span {
+            .fly-header #header-outer #header .social-icons li span {
               display: inline-block;
               width: 24px;
               height: 24px;
               background-image: url(../img/social-icons.png); }
-            .landing-footer #header-outer #header .social-icons li #social-weibo {
+            .fly-header #header-outer #header .social-icons li #social-weibo {
               background-position: -7px -42px; }
-              .landing-footer #header-outer #header .social-icons li #social-weibo:hover {
+              .fly-header #header-outer #header .social-icons li #social-weibo:hover {
                 background-position: -7px -3px; }
-            .landing-footer #header-outer #header .social-icons li #social-search {
+            .fly-header #header-outer #header .social-icons li #social-search {
               background-position: -48px -42px; }
-              .landing-footer #header-outer #header .social-icons li #social-search:hover {
+              .fly-header #header-outer #header .social-icons li #social-search:hover {
                 background-position: -48px -3px; }
-            .landing-footer #header-outer #header .social-icons li #social-qq {
+            .fly-header #header-outer #header .social-icons li #social-qq {
               background-position: -90px -42px; }
-              .landing-footer #header-outer #header .social-icons li #social-qq:hover {
+              .fly-header #header-outer #header .social-icons li #social-qq:hover {
                 background-position: -90px -3px; }
 
   #mainBody {
@@ -124,8 +173,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 280px;
-        padding-top: 130px;
-        color: #638273; }
+        padding-top: 100px;
+        color: #638273;
+        position: absolute; }
         #mainBody .container .title .h1 {
           text-align: right;
           font-size: 36px;
@@ -136,56 +186,8 @@
         #mainBody .container .title .spliter {
           height: 10px;
           background-image: url(../img/section-header-spliter.png); }
-    #mainBody #home .container {
-      background-color: #f7fffb;
-      width: 100%;
-      height: 730px; }
-      #mainBody #home .container #landing-cookies #landing-1 {
-        left: 30%;
-        width: 137px;
-        height: 880px;
-        background: url(../img/cookies/landing-cookie-1.png) no-repeat 0 50px; }
-      #mainBody #home .container #landing-cookies #landing-2 {
-        left: 60%;
-        top: 100px;
-        width: 188px;
-        height: 880px;
-        background: url(../img/cookies/landing-cookie-2.png) no-repeat 0 100px; }
-      #mainBody #home .container .landing-outer {
-        padding-top: 150px; }
-        #mainBody #home .container .landing-outer .progress {
-          position: relative;
-          margin: auto;
-          width: 126px;
-          height: 100px; }
-          #mainBody #home .container .landing-outer .progress .progress-icon {
-            position: absolute;
-            width: 126px;
-            height: 100px; }
-          #mainBody #home .container .landing-outer .progress .colored {
-            background: url(../img/progress-color.png); }
-          #mainBody #home .container .landing-outer .progress .greyscale {
-            background: url(../img/progress-gray.png); }
-        #mainBody #home .container .landing-outer .progress-text {
-          text-align: center;
-          font-family: btseps2;
-          font-size: 40px;
-          color: #729f88; }
-        #mainBody #home .container .landing-outer .logo {
-          text-align: center;
-          width: 110px;
-          margin: auto; }
-        #mainBody #home .container .landing-outer .description {
-          margin: auto;
-          width: 400px;
-          color: #999;
-          font-size: 10px;
-          text-align: center;
-          margin-top: 12px;
-          font-family: arial; }
-          #mainBody #home .container .landing-outer .description p {
-            margin: 0; }
     #mainBody #new-prod {
+      margin-top: 60px;
       width: 100%;
       background-color: #fffcf8; }
       #mainBody #new-prod .container {
@@ -230,7 +232,9 @@
       width: 100%;
       background-color: #f2fcfd; }
       #mainBody #about .container {
-        height: 880px; }
+        background: #f2fcfd;
+        height: 880px;
+        overflow: hidden; }
         #mainBody #about .container #about-cookies #about-cookie-1 {
           background: url(../img/cookies/about-cookie-1.png) no-repeat 0 0;
           width: 424px;
@@ -309,20 +313,20 @@
         #mainBody #news-center .container #news-center-mask {
           background: url(../img/news-center-mask.png) no-repeat;
           position: absolute;
+          top: 240px;
           opacity: 0.80;
           z-index: 100;
           height: 524px;
           width: 100%; }
-        #mainBody #news-center .container .title {
-          padding-top: 130px; }
         #mainBody #news-center .container .content-outer {
           position: relative;
-          z-index: 1111; }
+          z-index: 1111;
+          width: 100%;
+          top: 310px; }
           #mainBody #news-center .container .content-outer .section-top {
             border-bottom: 1px solid #93b4a5;
             clear: both;
-            height: 32px;
-            margin-top: 70px; }
+            height: 32px; }
             #mainBody #news-center .container .content-outer .section-top .content {
               width: 1000px;
               margin: auto; }

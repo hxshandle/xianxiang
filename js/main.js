@@ -14,18 +14,41 @@ $(function () {
     $(this).find(".image-overlay").show();
   });
 
+
   function adjPos() {
     var left = $("#logo").offset().left;
+    var viewWidth = $(window).width();
     $("#new-prod-text,#new-prod-desc").css("left", left);
     $("#home-girl").css("left", left + 450);
     $("#about-girl").css("left", left);
     $("#about-cookie-4").css("left", left + 450);
     $(".about-summary-outer").css("left", left + 650);
+    var titlePos = Math.ceil(viewWidth/2 -140);
+    $(".container .title").css("left",titlePos+"px");
+  }
+  function adjViewSize(){
+    var viewHeight = $(window).height();
+    $("#landing .container").css("height",viewHeight+"px");
+    $(".fly-header").css("top",viewHeight+"px");
+    adjPos();
+
   }
 
+  function adjHeaderPos(){
+    var viewHeight = $(window).height();
+    var scrollHeight = $(window).scrollTop();
+    if(scrollHeight > viewHeight){
+      $(".fly-header").css("top",scrollHeight+"px");
+    }else{
+      $(".fly-header").css("top",viewHeight+"px");
+    }
+
+  }
+
+
   //resize
-  $(window).resize(adjPos);
-  adjPos();
+  $(window).bind("scroll",adjHeaderPos).resize(adjViewSize);
+  adjViewSize();
 
 });
 

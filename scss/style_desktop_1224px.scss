@@ -1,8 +1,83 @@
-.landing-footer {
+#landing {
+  .container {
+    background-color: #f7fffb;
+    width: 100%;
+    //background: url(../img/landing-bg.png);
+    height: 730px;
+    #landing-cookies {
+      #landing-1 {
+        left: 30%;
+        width: 137px;
+        height: 880px;
+        background: url(../img/cookies/landing-cookie-1.png) no-repeat 0 50px;
+      }
+      #landing-2 {
+        left: 60%;
+        top: 100px;
+        width: 188px;
+        height: 880px;
+        background: url(../img/cookies/landing-cookie-2.png) no-repeat 0 100px;
+      }
+    }
+    .landing-outer {
+      padding-top: 150px;
+      .a {
+      }
+
+      .progress {
+        position: relative;
+        margin: auto;
+        width: 126px;
+        height: 100px;
+
+        .progress-icon {
+          position: absolute;
+          width: 126px;
+          height: 100px;
+        }
+        .colored {
+          background: url(../img/progress-color.png);
+        }
+        .greyscale {
+          background: url(../img/progress-gray.png);
+        }
+
+      }
+      // end of progress
+      .progress-text {
+        text-align: center;
+        font-family: btseps2;
+        font-size: 40px;
+        color: #729f88;
+      }
+      // end of progress text
+
+      .logo {
+        text-align: center;
+        width: 110px;
+        margin: auto;
+      }
+      .description {
+        margin: auto;
+        width: 400px;
+        color: #999;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 12px;
+        font-family: arial;
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+  // end of container
+}
+// fly header
+.fly-header {
   position: absolute;
   width: 100%;
-  top: 672px;
-  z-index: 999;
+  z-index: 99999;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   #header-outer {
     background-color: #f1fff8;
@@ -88,6 +163,10 @@
   // end of header outer
 }
 
+// end of fly header
+
+// end of landing page
+
 // end of landing footer
 #mainBody {
   width: 100%;
@@ -115,8 +194,9 @@
       margin-left: auto;
       margin-right: auto;
       width: 280px;
-      padding-top: 130px;
+      padding-top: 100px;
       color: #638273;
+      position: absolute;
       .h1 {
         text-align: right;
         font-size: 36px;
@@ -135,84 +215,8 @@
 
   }
 
-  #home {
-    .container {
-      background-color: #f7fffb;
-      width: 100%;
-      //background: url(../img/landing-bg.png);
-      height: 730px;
-      #landing-cookies {
-        #landing-1 {
-          left: 30%;
-          width: 137px;
-          height: 880px;
-          background: url(../img/cookies/landing-cookie-1.png) no-repeat 0 50px;
-        }
-        #landing-2 {
-          left: 60%;
-          top: 100px;
-          width: 188px;
-          height: 880px;
-          background: url(../img/cookies/landing-cookie-2.png) no-repeat 0 100px;
-        }
-      }
-      .landing-outer {
-        padding-top: 150px;
-        .a {
-        }
-
-        .progress {
-          position: relative;
-          margin: auto;
-          width: 126px;
-          height: 100px;
-
-          .progress-icon {
-            position: absolute;
-            width: 126px;
-            height: 100px;
-          }
-          .colored {
-            background: url(../img/progress-color.png);
-          }
-          .greyscale {
-            background: url(../img/progress-gray.png);
-          }
-
-        }
-        // end of progress
-        .progress-text {
-          text-align: center;
-          font-family: btseps2;
-          font-size: 40px;
-          color: #729f88;
-        }
-        // end of progress text
-
-        .logo {
-          text-align: center;
-          width: 110px;
-          margin: auto;
-        }
-        .description {
-          margin: auto;
-          width: 400px;
-          color: #999;
-          font-size: 10px;
-          text-align: center;
-          margin-top: 12px;
-          font-family: arial;
-          p {
-            margin: 0;
-          }
-        }
-      }
-    }
-    // end of container
-  }
-  // end of home
-
   #new-prod {
+    margin-top: 60px;
     width: 100%;
     background-color: #fffcf8;
 
@@ -278,7 +282,9 @@
     background-color: #f2fcfd;
     .container {
       //background-image: url(../img/section-about-1224.png);
+      background:#f2fcfd;
       height: 880px;
+      overflow: hidden;
 
       #about-cookies {
         #about-cookie-1 {
@@ -385,6 +391,7 @@
       #news-center-mask {
         background: url(../img/news-center-mask.png) no-repeat;
         position: absolute;
+        top:240px;
         opacity: 0.80;
         //-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=80);
         //filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
@@ -394,17 +401,15 @@
         width: 100%;
       }
 
-      .title {
-        padding-top: 130px;
-      }
       .content-outer {
         position: relative;
         z-index: 1111;
+        width:100%;
+        top:310px;
         .section-top {
           border-bottom: 1px solid #93b4a5;
           clear: both;
           height: 32px;
-          margin-top: 70px;
 
           .content {
             width: 1000px;
