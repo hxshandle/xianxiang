@@ -3,6 +3,7 @@ $(function () {
   viewHeight = $(window).height();
   viewWidth = $(window).width();
 
+
   $(".scroll-panel").jScrollPane();
   $("#about-summary").jScrollPane({verticalDragMaxHeight: 47});
   $(".prod-show a").colorbox();
@@ -20,7 +21,8 @@ $(function () {
 
 
   function adjPos() {
-    var left = $("#logo").offset().left;
+    //var left = $("#logo").offset().left;
+    var left = viewWidth > 1000 ? (viewWidth - 1000) / 2 : 0;
     $("#new-prod-text,#new-prod-desc").css("left", left);
     $("#home-girl").css("left", left + 450);
     $("#about-girl").css("left", left);
@@ -30,6 +32,14 @@ $(function () {
     $("#select-menu").css("top", selTop + "px");
     var titlePos = Math.ceil(viewWidth / 2 - 140);
     $(".container .title").css("left", titlePos + "px");
+
+    if (viewHeight < 247) {
+      $(".landing-outer").css("padding-top", "0px");
+    } else {
+      var _pt = viewHeight / 2 - 124;
+      $(".landing-outer").css("padding-top", _pt + "px");
+    }
+
   }
 
   function adjViewSize() {
@@ -45,8 +55,9 @@ $(function () {
     var scrollTop = $(window).scrollTop();
     if (scrollTop > viewHeight) {
       $(".fly-header").css("top", scrollTop + "px");
+      $(".fly-header").css("display","block");
     } else {
-      $(".fly-header").css("top", viewHeight + "px");
+      $(".fly-header").css("display","none");
     }
     // select menu
     if (scrollTop - viewHeight / 2 > selTop && scrollTop - viewHeight / 2 < 700) {
@@ -97,17 +108,17 @@ $(function () {
   $('#landing-1').parallax(0, 0.1, 800);
   $('#landing-2').parallax(0, 0.2, 1000);
 
-  $('#cookie-1').parallax(0, 0.4, 800);
-  $('#cookie-2').parallax(0, 0.4, 500);
+  $('#cookie-1').parallax(0, 0.3, 800);
+  $('#cookie-2').parallax(0, 0.2, 500,true);
   $('#cookie-3').parallax(0, 0.4, 300);
-  $('#about-cookie-1').parallax(0, 0.4, 800);
+  $('#about-cookie-1').parallax(0, 0.2, 800);
   $('#about-cookie-2').parallax(0, 0.4, 500);
   $('#about-cookie-3').parallax(0, 0.4, 300);
 
-  $('#news-center-cookie-1').parallax(0, 0.1, 300);
+  $('#news-center-cookie-1').parallax(0, 0.1, 300,true);
   $('#news-center-cookie-2').parallax(0, 0.2, 800);
   $('#news-center-cookie-3').parallax(0, 0.4, 500);
-  $('#news-center-cookie-4').parallax(0, 0.3, 800);
+  $('#news-center-cookie-4').parallax(0, 0.5, 800,true);
   $('#news-center-cookie-5').parallax(0, 0.4, 300);
   $('#news-center-cookie-6').parallax(0, 0.4, 800);
 });
@@ -179,8 +190,8 @@ $(function () {
   function changePicture(index) {
     $('.sel').removeClass('selc').filter('.sel:eq(' + index + ')').addClass('selc');
     cur_page = index;
-    var url="img/cookies/home-girl-"+index+".png";
-    $("#home-girl").css("background","url("+url+") no-repeat");
+    var url = "img/cookies/home-girl-" + index + ".png";
+    $("#home-girl").css("background", "url(" + url + ") no-repeat");
   }
 
   $('.sel').each(function (index, element) {
