@@ -45,6 +45,9 @@ ul, li {
 .cookies{
   position:absolute;
 }
+#colorbox, #cboxOverlay, #cboxWrapper{
+  z-index: 99999;
+}
 
 @font-face {
   font-family: btseps2;

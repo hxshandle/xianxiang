@@ -39,6 +39,9 @@
   .cookies {
     position: absolute; }
 
+  #colorbox, #cboxOverlay, #cboxWrapper {
+    z-index: 99999; }
+
   @font-face {
     font-family: btseps2;
     src: url(../fonts/btseps2.ttf); }
