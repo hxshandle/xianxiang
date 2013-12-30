@@ -88,9 +88,9 @@ $(function() {
 		var scrollTop = $(window).scrollTop();
 		if (scrollTop > viewHeight) {
 			$(".fly-header").css("top", scrollTop + "px");
-			$(".fly-header").css("display", "block");
+			$(".fly-header").fadeIn(1000);
 		} else {
-			$(".fly-header").css("display", "none");
+			$(".fly-header").fadeOut(1000);
 		}
 		// select menu
 		if (scrollTop - viewHeight / 2 > selTop && scrollTop - viewHeight / 2 < 700) {
