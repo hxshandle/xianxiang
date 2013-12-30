@@ -298,11 +298,10 @@
           height: 880px;
           right: 0px; }
         #mainBody #about .container #about-cookies #about-cookie-4 {
-          background: url(../img/cookies/about-cookie-4.png) no-repeat 0 230px;
-          width: 560px;
-          height: 880px;
-          left: 700px; }
-        #mainBody #about .container #about-cookies #about-girl {
+          background: url(../img/cookies/about-cookie-5.png) no-repeat 0 130px;
+          width: 1067px;
+          height: 880px; }
+        #mainBody #about .container #about-cookies #about-girl1 {
           background: url(../img/cookies/about-girl.png) no-repeat 0 0;
           width: 630px;
           height: 880px;
@@ -509,7 +508,8 @@
         text-align: center;
         position: absolute;
         top: 190px;
-        width: 100%; }
+        width: 100%;
+        z-index: 99999; }
         #mainBody #store .container .query-section .province-sel {
           width: 100px; }
           #mainBody #store .container .query-section .province-sel .sbSelector {
@@ -538,6 +538,33 @@
         width: 417px;
         height: 880px;
         left: 5%; }
+      #mainBody #store .container .store-gallery {
+        width: 100%;
+        text-align: center;
+        padding-top: 300px; }
+        #mainBody #store .container .store-gallery .store-gallery-inner {
+          width: 800px;
+          margin: auto;
+          position: relative; }
+        #mainBody #store .container .store-gallery .gallery-mask {
+          width: 800px;
+          height: 415px;
+          position: absolute;
+          left: 0;
+          top: 0;
+          background: url(../img/store-show-border-image.png) no-repeat;
+          z-index: 999; }
+        #mainBody #store .container .store-gallery .stores {
+          width: 795px;
+          height: 490px; }
+        #mainBody #store .container .store-gallery .store-image {
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 1;
+          width: 795px;
+          height: 414px;
+          background: url(../img/store-show-img-1.png) no-repeat 20px 0px; }
     #mainBody #vip-center .container {
       width: 100%;
       height: 880px;

@@ -364,12 +364,11 @@
           right: 0px;
         }
         #about-cookie-4 {
-          background: url(../img/cookies/about-cookie-4.png) no-repeat 0 230px;
-          width: 560px;
+          background: url(../img/cookies/about-cookie-5.png) no-repeat 0 130px;
+          width: 1067px;
           height: 880px;
-          left: 700px;
         }
-        #about-girl {
+        #about-girl1 {
           background: url(../img/cookies/about-girl.png) no-repeat 0 0;
           width: 630px;
           height: 880px;
@@ -676,6 +675,7 @@
         position: absolute;
         top: 190px;
         width: 100%;
+        z-index: 99999;
 
         .province-sel {
           width: 100px;
@@ -716,6 +716,41 @@
           width: 417px;
           height: 880px;
           left: 5%;
+        }
+      } // end of cookies
+      
+      .store-gallery{
+        width:100%;
+        text-align: center;
+        padding-top:300px;
+
+        .store-gallery-inner{
+          width:800px;
+          margin:auto;
+          position: relative;
+        }
+
+        .gallery-mask{
+          width:800px;
+          height:415px;
+          position: absolute;
+          left: 0;
+          top:0;
+          background: url(../img/store-show-border-image.png) no-repeat;
+          z-index: 999;
+        }
+        .stores{
+          width:795px;
+          height:490px;
+        }
+        .store-image{
+          position: absolute;
+          left:0;
+          top:0;
+          z-index: 1;
+          width:795px;
+          height:414px;
+          background: url(../img/store-show-img-1.png) no-repeat 20px 0px;
         }
       }
 

@@ -12,26 +12,43 @@ $(function () {
   scrollController.addTween("#contact-us-content", TweenMax.from($("#contact-us-content"), 1, {
     css: {
       opacity: "0",
-      top: "10px"
+      top: "50px"
     }
   }));
 
   scrollController.addTween(".about-summary-outer", TweenMax.from($(".about-summary-outer"), 1, {
     css: {
       opacity: "0",
-      top: "280px"
-    }
-  }));
-  scrollController.addTween("#about-girl", TweenMax.from($("#about-girl"), 1, {
-    css: {
-      opacity: "0",
-      left: "100px"
+      top: "180px"
     }
   }));
   scrollController.addTween("#about-cookie-4", TweenMax.from($("#about-cookie-4"), 1, {
     css: {
       opacity: "0",
-      right:"20px"
+      top:"100px"
+    }
+  }),0,150);
+  scrollController.addTween("#news-center .content-outer", TweenMax.from($("#news-center .content-outer"), 2, {
+    css: {
+      opacity: "0",
+      top:"250px"
+    }
+  }));
+  scrollController.addTween(".prod-outer", TweenMax.from($(".prod-outer"), 2, {
+    css: {
+      opacity: "0",
+      top:"250px"
+    }
+  }));
+  scrollController.addTween(".store-gallery", TweenMax.from($(".store-gallery"), 2, {
+    css: {
+      opacity: "0",
+    }
+  }),0,300);
+  scrollController.addTween(".login", TweenMax.from($(".login"), 2, {
+    css: {
+      opacity: "0",
+      top:"250px"
     }
   }));
 
@@ -78,9 +95,8 @@ $(function () {
     var left = viewWidth > 1000 ? (viewWidth - 1000) / 2 : 0;
     $("#new-prod-text,#new-prod-desc").css("left", left);
     $("#home-girl").css("left", left + 450);
-    $("#about-girl").css("left", left);
-    $("#about-cookie-4").css("left", left + 450);
-    $(".about-summary-outer").css("left", left + 650);
+    $("#about-cookie-4").css("left", left);
+    $(".about-summary-outer").css("left", left + 700);
     selTop = viewHeight / 2 - 70;
     $("#select-menu").css("top", selTop + "px");
     var titlePos = Math.ceil(viewWidth / 2 - 140);
@@ -154,6 +170,12 @@ $(function () {
       active: false
     },
     navigation: {
+      active: false
+    }
+  });
+
+  $(".stores").slidesjs({
+    pagination: {
       active: false
     }
   });
