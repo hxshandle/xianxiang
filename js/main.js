@@ -16,6 +16,25 @@ $(function () {
     }
   }));
 
+  scrollController.addTween(".about-summary-outer", TweenMax.from($(".about-summary-outer"), 1, {
+    css: {
+      opacity: "0",
+      top: "280px"
+    }
+  }));
+  scrollController.addTween("#about-girl", TweenMax.from($("#about-girl"), 1, {
+    css: {
+      opacity: "0",
+      left: "100px"
+    }
+  }));
+  scrollController.addTween("#about-cookie-4", TweenMax.from($("#about-cookie-4"), 1, {
+    css: {
+      opacity: "0",
+      right:"20px"
+    }
+  }));
+
   $(".scroll-panel").jScrollPane();
   $("#about-summary").jScrollPane({
     verticalDragMaxHeight: 47
