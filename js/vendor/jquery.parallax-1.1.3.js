@@ -66,7 +66,7 @@
         var adjPosY = Math.round((firstTop - pos) * speedFactor * reverse) + parseInt(originalBackgroundPosY);
         //$this.css('backgroundPosition', xpos + " " + adjPosY + "px");
         var ss = xpos + " " + adjPosY + "px";
-        $this.stop().animate({"backgroundPosition": ss}, tmp);
+        $this.stop().animate({"backgroundPosition": ss}, tmp,"easeOutQuart");
         tmp = animateDue;
       });
     }
