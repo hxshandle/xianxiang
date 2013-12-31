@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/store-show-border-image.png" afterPath="$PROJECT_DIR$/img/store-show-border-image.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style_desktop_1224px.scss" afterPath="$PROJECT_DIR$/scss/style_desktop_1224px.scss" />
@@ -12,14 +10,15 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387100251300" ignored="false" />
     <file path="/index.html" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388398304289" ignored="false" />
-    <file path="/style_desktop_1224px.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388401983934" ignored="false" />
+    <file path="/style_desktop_1224px.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388465328031" ignored="false" />
     <file path="/dummy.xml" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388398272344" ignored="false" />
-    <file path="/main.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388404777404" ignored="false" />
+    <file path="/main.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388465790901" ignored="false" />
     <file path="/common.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388390923221" ignored="false" />
     <file path="/style.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387075619623" ignored="false" />
     <file path="/jquery.selectbox-0.2.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387176501253" ignored="false" />
     <file path="/jquery.parallax-1.1.3.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388055857556" ignored="false" />
     <file path="$PROJECT_DIR$/../vCard/css/main.css" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387533180939" ignored="false" />
+    <file path="/jquery.slides.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388465716276" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <file leaf-file-name="jquery.slides.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/vendor/jquery.slides.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="222" column="21" selection-start="6981" selection-end="6981" vertical-scroll-proportion="0.0">
+            <state line="194" column="20" selection-start="5939" selection-end="5939" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,12 +72,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style_desktop_1224px.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style_desktop_1224px.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/style_desktop_1224px.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="366" column="75" selection-start="8046" selection-end="8046" vertical-scroll-proportion="0.0">
+            <state line="743" column="18" selection-start="17110" selection-end="17110" vertical-scroll-proportion="0.5356037">
               <folding>
-                <element signature="e#17442#20011#0" expanded="false" />
+                <element signature="e#17520#20089#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -93,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="7" selection-start="826" selection-end="826" vertical-scroll-proportion="0.58049536">
+            <state line="183" column="13" selection-start="4957" selection-end="4957" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,8 +168,9 @@
         <option value="$PROJECT_DIR$/js/vendor/jquery.parallax-1.1.3.js" />
         <option value="$PROJECT_DIR$/scss/common.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scss/style_desktop_1224px.scss" />
+        <option value="$PROJECT_DIR$/js/vendor/jquery.slides.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/scss/style_desktop_1224px.scss" />
       </list>
     </option>
   </component>
@@ -343,11 +343,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982357" sideWeight="0.67234045" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.67234045" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6728838" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32765958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -438,7 +438,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="675" column="0" selection-start="25783" selection-end="25783" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1388402959000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1388465462000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -474,13 +474,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/vendor/jquery.slides.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="21" selection-start="6981" selection-end="6981" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -524,15 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/style_desktop_1224px.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="366" column="75" selection-start="8046" selection-end="8046" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#17442#20011#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="364" column="13" selection-start="14985" selection-end="14985" vertical-scroll-proportion="-5.0">
@@ -547,10 +531,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/vendor/jquery.slides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="20" selection-start="5939" selection-end="5939" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="7" selection-start="826" selection-end="826" vertical-scroll-proportion="0.58049536">
+        <state line="183" column="13" selection-start="4957" selection-end="4957" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/style_desktop_1224px.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="743" column="18" selection-start="17110" selection-end="17110" vertical-scroll-proportion="0.5356037">
+          <folding>
+            <element signature="e#17520#20089#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

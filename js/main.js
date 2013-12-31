@@ -177,7 +177,11 @@ $(function () {
   $(".stores").slidesjs({
     pagination: {
       active: false
-    }
+    },
+    navigation: {
+      active: false
+    },
+    height:600
   });
   $("#news-articles .slidesjs-container").css({
     'height': '300px',
