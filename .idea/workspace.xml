@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style_desktop_1224px.scss" afterPath="$PROJECT_DIR$/scss/style_desktop_1224px.scss" />
     </list>
     <ignored path="xianxiang.iws" />
@@ -75,10 +73,8 @@
       <file leaf-file-name="style_desktop_1224px.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/style_desktop_1224px.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="743" column="18" selection-start="17110" selection-end="17110" vertical-scroll-proportion="0.5356037">
-              <folding>
-                <element signature="e#17520#20089#0" expanded="false" />
-              </folding>
+            <state line="7" column="2" selection-start="139" selection-end="139" vertical-scroll-proportion="0.16253869">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -438,7 +434,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="675" column="0" selection-start="25783" selection-end="25783" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1388465462000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1388465891000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -547,10 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/style_desktop_1224px.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="743" column="18" selection-start="17110" selection-end="17110" vertical-scroll-proportion="0.5356037">
-          <folding>
-            <element signature="e#17520#20089#0" expanded="false" />
-          </folding>
+        <state line="7" column="2" selection-start="139" selection-end="139" vertical-scroll-proportion="0.16253869">
+          <folding />
         </state>
       </provider>
     </entry>

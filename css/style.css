@@ -50,55 +50,57 @@
     font-family: Hye1gj;
     src: url(../fonts/Hye1gj.ttf); }
 
-  #landing .container {
-    background-color: #f7fffb;
-    width: 100%;
-    height: 730px; }
-    #landing .container #landing-cookies #landing-1 {
-      left: 30%;
-      width: 137px;
-      height: 880px;
-      background: url(../img/cookies/landing-cookie-1.png) no-repeat 0 50px; }
-    #landing .container #landing-cookies #landing-2 {
-      left: 60%;
-      top: 100px;
-      width: 188px;
-      height: 880px;
-      background: url(../img/cookies/landing-cookie-2.png) no-repeat 0 100px; }
-    #landing .container .landing-outer {
-      padding-top: 150px; }
-      #landing .container .landing-outer .progress {
-        position: relative;
-        margin: auto;
-        width: 126px;
-        height: 100px; }
-        #landing .container .landing-outer .progress .progress-icon {
-          position: absolute;
+  #landing {
+    min-width: 1000px; }
+    #landing .container {
+      background-color: #f7fffb;
+      width: 100%;
+      height: 730px; }
+      #landing .container #landing-cookies #landing-1 {
+        left: 30%;
+        width: 137px;
+        height: 880px;
+        background: url(../img/cookies/landing-cookie-1.png) no-repeat 0 50px; }
+      #landing .container #landing-cookies #landing-2 {
+        left: 60%;
+        top: 100px;
+        width: 188px;
+        height: 880px;
+        background: url(../img/cookies/landing-cookie-2.png) no-repeat 0 100px; }
+      #landing .container .landing-outer {
+        padding-top: 150px; }
+        #landing .container .landing-outer .progress {
+          position: relative;
+          margin: auto;
           width: 126px;
           height: 100px; }
-        #landing .container .landing-outer .progress .colored {
-          background: url(../img/progress-color.png); }
-        #landing .container .landing-outer .progress .greyscale {
-          background: url(../img/progress-gray.png); }
-      #landing .container .landing-outer .progress-text {
-        text-align: center;
-        font-family: btseps2;
-        font-size: 40px;
-        color: #729f88; }
-      #landing .container .landing-outer .logo {
-        text-align: center;
-        width: 110px;
-        margin: auto; }
-      #landing .container .landing-outer .description {
-        margin: auto;
-        width: 400px;
-        color: #999;
-        font-size: 10px;
-        text-align: center;
-        margin-top: 12px;
-        font-family: arial; }
-        #landing .container .landing-outer .description p {
-          margin: 0; }
+          #landing .container .landing-outer .progress .progress-icon {
+            position: absolute;
+            width: 126px;
+            height: 100px; }
+          #landing .container .landing-outer .progress .colored {
+            background: url(../img/progress-color.png); }
+          #landing .container .landing-outer .progress .greyscale {
+            background: url(../img/progress-gray.png); }
+        #landing .container .landing-outer .progress-text {
+          text-align: center;
+          font-family: btseps2;
+          font-size: 40px;
+          color: #729f88; }
+        #landing .container .landing-outer .logo {
+          text-align: center;
+          width: 110px;
+          margin: auto; }
+        #landing .container .landing-outer .description {
+          margin: auto;
+          width: 400px;
+          color: #999;
+          font-size: 10px;
+          text-align: center;
+          margin-top: 12px;
+          font-family: arial; }
+          #landing .container .landing-outer .description p {
+            margin: 0; }
 
   .fly-header {
     display: none;
