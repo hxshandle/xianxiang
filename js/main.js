@@ -164,6 +164,8 @@ $(function () {
 
   //resize
   $(window).bind("scroll", adjScrollPos).resize(adjViewSize);
+  $(window).bind("orientationchange",adjViewSize());
+
   adjViewSize();
 
 });
