@@ -99,7 +99,11 @@ $(function () {
     $(".about-summary-outer").css("left", left + 700);
     selTop = viewHeight / 2 - 70;
     $("#select-menu").css("top", selTop + "px");
-    var titlePos = Math.ceil(viewWidth / 2 - 140);
+    var _vw = viewWidth;
+    if(_vw< 1000){
+        _vw=1000;
+    }
+    var titlePos = Math.ceil(_vw / 2 - 140);
     $(".container .title").css("left", titlePos + "px");
 
     if (viewHeight < 247) {
