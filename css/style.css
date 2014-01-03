@@ -60,17 +60,19 @@
       height: 730px;
       min-width: 1000px;
       width: 100%; }
-      #landing .container #landing-cookies #landing-1 {
-        left: 30%;
-        width: 137px;
-        height: 880px;
-        background: url(../img/cookies/landing-cookie-1.png) no-repeat 0 50px; }
-      #landing .container #landing-cookies #landing-2 {
-        left: 60%;
-        top: 100px;
-        width: 188px;
-        height: 880px;
-        background: url(../img/cookies/landing-cookie-2.png) no-repeat 0 100px; }
+      #landing .container #landing-cookies {
+        min-width: 1000px; }
+        #landing .container #landing-cookies #landing-1 {
+          left: 30%;
+          width: 137px;
+          height: 880px;
+          background: url(../img/cookies/landing-cookie-1.png) no-repeat 0 50px; }
+        #landing .container #landing-cookies #landing-2 {
+          left: 60%;
+          top: 100px;
+          width: 188px;
+          height: 880px;
+          background: url(../img/cookies/landing-cookie-2.png) no-repeat 0 100px; }
       #landing .container .landing-outer {
         padding-top: 150px;
         text-align: center;

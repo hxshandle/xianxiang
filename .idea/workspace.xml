@@ -8,7 +8,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387100251300" ignored="false" />
     <file path="/index.html" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388746245059" ignored="false" />
-    <file path="/style_desktop_1224px.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388746658110" ignored="false" />
+    <file path="/style_desktop_1224px.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388746711086" ignored="false" />
     <file path="/dummy.xml" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388746245755" ignored="false" />
     <file path="/main.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388744821848" ignored="false" />
     <file path="/common.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388744471243" ignored="false" />
@@ -73,7 +73,7 @@
       <file leaf-file-name="style_desktop_1224px.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/style_desktop_1224px.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="14" selection-start="363" selection-end="363" vertical-scroll-proportion="0.3482972">
+            <state line="8" column="22" selection-start="182" selection-end="182" vertical-scroll-proportion="0.18575852">
               <folding />
             </state>
           </provider>
@@ -100,9 +100,9 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="686" column="0" selection-start="25693" selection-end="25693" vertical-scroll-proportion="0.0">
+            <state line="686" column="0" selection-start="25692" selection-end="25692" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1388746556000" expanded="true" signature="1641:1711" placeholder="{...}" />
+                <marker date="1388746661000" expanded="true" signature="1640:1710" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -500,9 +500,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="686" column="0" selection-start="25693" selection-end="25693" vertical-scroll-proportion="0.0">
+        <state line="686" column="0" selection-start="25692" selection-end="25692" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1388746556000" expanded="true" signature="1641:1711" placeholder="{...}" />
+            <marker date="1388746661000" expanded="true" signature="1640:1710" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -544,7 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/style_desktop_1224px.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="363" selection-end="363" vertical-scroll-proportion="0.3482972">
+        <state line="8" column="22" selection-start="182" selection-end="182" vertical-scroll-proportion="0.18575852">
           <folding />
         </state>
       </provider>
