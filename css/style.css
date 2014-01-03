@@ -72,30 +72,34 @@
         height: 880px;
         background: url(../img/cookies/landing-cookie-2.png) no-repeat 0 100px; }
       #landing .container .landing-outer {
-        padding-top: 150px; }
-        #landing .container .landing-outer .progress {
+        padding-top: 150px;
+        text-align: center;
+        position: absolute;
+        text-align: center;
+        width: 100%; }
+        #landing .container .landing-outer .landing-inner .progress {
           position: relative;
           margin: auto;
           width: 126px;
           height: 100px; }
-          #landing .container .landing-outer .progress .progress-icon {
+          #landing .container .landing-outer .landing-inner .progress .progress-icon {
             position: absolute;
             width: 126px;
             height: 100px; }
-          #landing .container .landing-outer .progress .colored {
+          #landing .container .landing-outer .landing-inner .progress .colored {
             background: url(../img/progress-color.png); }
-          #landing .container .landing-outer .progress .greyscale {
+          #landing .container .landing-outer .landing-inner .progress .greyscale {
             background: url(../img/progress-gray.png); }
-        #landing .container .landing-outer .progress-text {
+        #landing .container .landing-outer .landing-inner .progress-text {
           text-align: center;
           font-family: btseps2;
           font-size: 40px;
           color: #729f88; }
-        #landing .container .landing-outer .logo {
+        #landing .container .landing-outer .landing-inner .logo {
           text-align: center;
           width: 110px;
           margin: auto; }
-        #landing .container .landing-outer .description {
+        #landing .container .landing-outer .landing-inner .description {
           margin: auto;
           width: 400px;
           color: #999;
@@ -103,7 +107,7 @@
           text-align: center;
           margin-top: 12px;
           font-family: arial; }
-          #landing .container .landing-outer .description p {
+          #landing .container .landing-outer .landing-inner .description p {
             margin: 0; }
 
   .fly-header {
