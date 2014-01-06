@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style_desktop_1224px.scss" afterPath="$PROJECT_DIR$/scss/style_desktop_1224px.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cookies/news-cookie-1.png" afterPath="$PROJECT_DIR$/img/cookies/news-cookie-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cookies/news-cookie-2.png" afterPath="$PROJECT_DIR$/img/cookies/news-cookie-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cookies/news-cookie-3.png" afterPath="$PROJECT_DIR$/img/cookies/news-cookie-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cookies/news-cookie-4.png" afterPath="$PROJECT_DIR$/img/cookies/news-cookie-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cookies/news-cookie-5.png" afterPath="$PROJECT_DIR$/img/cookies/news-cookie-5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cookies/news-cookie-6.png" afterPath="$PROJECT_DIR$/img/cookies/news-cookie-6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cookies/products-cookie-1.png" afterPath="$PROJECT_DIR$/img/cookies/products-cookie-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cookies/products-cookie-2.png" afterPath="$PROJECT_DIR$/img/cookies/products-cookie-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cookies/products-cookie-3.png" afterPath="$PROJECT_DIR$/img/cookies/products-cookie-3.png" />
     </list>
     <ignored path="xianxiang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +81,7 @@
       <file leaf-file-name="style_desktop_1224px.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/style_desktop_1224px.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="182" selection-end="182" vertical-scroll-proportion="0.18575852">
+            <state line="493" column="22" selection-start="11326" selection-end="11326" vertical-scroll-proportion="0.55727553">
               <folding />
             </state>
           </provider>
@@ -100,9 +108,11 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="686" column="0" selection-start="25692" selection-end="25692" vertical-scroll-proportion="0.0">
+            <state line="689" column="0" selection-start="25819" selection-end="25819" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1388746661000" expanded="true" signature="1640:1710" placeholder="{...}" />
+                <marker date="1388746712000" expanded="true" signature="1312:1491" placeholder="{...}" />
+                <marker date="1388746712000" expanded="true" signature="1489:1725" placeholder="{...}" />
+                <marker date="1388746712000" expanded="true" signature="1736:1806" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -500,17 +510,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="686" column="0" selection-start="25692" selection-end="25692" vertical-scroll-proportion="0.0">
+        <state line="689" column="0" selection-start="25819" selection-end="25819" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1388746661000" expanded="true" signature="1640:1710" placeholder="{...}" />
+            <marker date="1388746712000" expanded="true" signature="1312:1491" placeholder="{...}" />
+            <marker date="1388746712000" expanded="true" signature="1489:1725" placeholder="{...}" />
+            <marker date="1388746712000" expanded="true" signature="1736:1806" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -542,9 +547,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scss/style_desktop_1224px.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="182" selection-end="182" vertical-scroll-proportion="0.18575852">
+        <state line="493" column="22" selection-start="11326" selection-end="11326" vertical-scroll-proportion="0.55727553">
           <folding />
         </state>
       </provider>
