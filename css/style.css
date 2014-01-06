@@ -295,15 +295,6 @@
         background: #f2fcfd;
         height: 880px;
         overflow: hidden; }
-        #mainBody #about .container .section-title {
-          position: absolute;
-          width: 100%;
-          text-align: center; }
-          #mainBody #about .container .section-title .section-title-inner {
-            background: url(../img/about-us-title.png) no-repeat;
-            width: 291px;
-            height: 79px;
-            margin: auto; }
         #mainBody #about .container #about-cookies #about-cookie-1 {
           background: url(../img/cookies/about-cookie-1.png) no-repeat 0 0;
           width: 424px;
