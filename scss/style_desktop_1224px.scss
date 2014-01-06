@@ -354,6 +354,18 @@
       height: 880px;
       overflow: hidden;
 
+      .section-title{
+        position: absolute;
+        width:100%;
+        text-align: center;
+        .section-title-inner{
+          background:url(../img/about-us-title.png) no-repeat;
+          width:291px;
+          height: 79px;
+          margin:auto;
+        }
+      }
+
       #about-cookies {
         #about-cookie-1 {
           background: url(../img/cookies/about-cookie-1.png) no-repeat 0 0;
@@ -554,6 +566,7 @@
             height: 300px;
             p {
               font-size: 12px;
+              color:#666666;
             }
           }
           #news-nav-bar {
@@ -633,7 +646,7 @@
               position: absolute;
               display: block;
               color: aliceblue;
-              background: rgba(0, 0, 0, 0.5);
+              background: rgba(0, 0, 0, 0.2);
               width: 330px;
               height: 530px;
               top: 0px;
@@ -910,7 +923,7 @@
             float: left;
             margin-left: 50px;
             margin-top: 50px;
-            width: 330px;
+            width: 335px;
             text-align: center;
             font-size: 12px;
             line-height: 20px;
