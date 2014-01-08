@@ -8,13 +8,17 @@ $(function () {
   toggleEl.data("hasDisplay", false);
 
   // for tween view for contact us
+  var scrollOffSet = 0;
+  if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))){
+    scrollOffSet = -300;
+  }
   var scrollController = $.superscrollorama();
   scrollController.addTween("#contact-us-content", TweenMax.from($("#contact-us-content"), 1, {
     css: {
       opacity: "0",
       top: "50px"
     }
-  }),0,-200);
+  }),0,scrollOffSet);
 
   scrollController.addTween(".about-summary-outer", TweenMax.from($(".about-summary-outer"), 1, {
     css: {
