@@ -14,7 +14,7 @@ $(function () {
       opacity: "0",
       top: "50px"
     }
-  }));
+  }),0,-200);
 
   scrollController.addTween(".about-summary-outer", TweenMax.from($(".about-summary-outer"), 1, {
     css: {
