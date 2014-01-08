@@ -60,6 +60,10 @@
       height: 730px;
       min-width: 1000px;
       width: 100%; }
+      #landing .container .scroll-down {
+        color: #999;
+        font-family: Georgia, serif;
+        font-style: italic; }
       #landing .container #landing-cookies {
         min-width: 1000px; }
         #landing .container #landing-cookies #landing-1 {

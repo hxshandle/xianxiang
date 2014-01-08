@@ -56,8 +56,10 @@ $(function () {
   $("#about-summary").jScrollPane({
     verticalDragMaxHeight: 47
   });
-  $(".prod-show a").colorbox();
-  $('#header .links a').smoothScroll();
+  $(".prod-show a").colorbox({
+    rel:".prod-show a"
+  });
+  $('#header .links a,.scroll-down a').smoothScroll();
 
   $("#province-sel").selectbox({
     classHolder: "sbHolder province-sel"
