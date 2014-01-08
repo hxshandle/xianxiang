@@ -63,7 +63,8 @@
       #landing .container .scroll-down {
         color: #999;
         font-family: Georgia, serif;
-        font-style: italic; }
+        font-style: italic;
+        padding-top: 60px; }
       #landing .container #landing-cookies {
         min-width: 1000px; }
         #landing .container #landing-cookies #landing-1 {
