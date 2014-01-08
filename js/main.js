@@ -10,7 +10,7 @@ $(function () {
   // for tween view for contact us
   var scrollOffSet = 0;
   if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))){
-    scrollOffSet = -300;
+    scrollOffSet = -500;
   }
   var scrollController = $.superscrollorama();
   scrollController.addTween("#contact-us-content", TweenMax.from($("#contact-us-content"), 1, {
