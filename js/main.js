@@ -124,6 +124,7 @@ $(function () {
   function adjViewSize() {
     viewHeight = $(window).height();
     viewWidth = $(window).width();
+    viewHeight = viewHeight < 550? 550:viewHeight;
     toggleTop = viewHeight + 6 * 880 - 200;
     $("#landing .container").css("height", viewHeight + "px");
     $(".fly-header").css("top", viewHeight + "px");
