@@ -11,6 +11,7 @@ $(function () {
   var scrollOffSet = 0;
   if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))){
     scrollOffSet = -500;
+    $(".scroll-down").css("padding-top","20px");
   }
   var scrollController = $.superscrollorama();
   scrollController.addTween("#contact-us-content", TweenMax.from($("#contact-us-content"), 1, {
