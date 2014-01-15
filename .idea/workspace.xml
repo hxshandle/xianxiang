@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/jquery.parallax-1.1.3.js" afterPath="$PROJECT_DIR$/js/vendor/jquery.parallax-1.1.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="xianxiang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -10,7 +10,7 @@
     <file path="/index.html" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1389161459779" ignored="false" />
     <file path="/style_desktop_1224px.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1389170490474" ignored="false" />
     <file path="/dummy.xml" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1389148116024" ignored="false" />
-    <file path="/main.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1389338029355" ignored="false" />
+    <file path="/main.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1389763507513" ignored="false" />
     <file path="/common.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1388744471243" ignored="false" />
     <file path="/style.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387075619623" ignored="false" />
     <file path="/jquery.selectbox-0.2.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387176501253" ignored="false" />
@@ -39,9 +39,12 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="354" column="13" selection-start="13420" selection-end="13420" vertical-scroll-proportion="-15.0">
+            <state line="120" column="54" selection-start="4135" selection-end="4135" vertical-scroll-proportion="-13.125">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#section#0;n#section#1;n#section#1;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#section#0;n#section#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#section#0;n#section#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#section#0;n#section#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1389760223000" expanded="true" signature="1096:1344" placeholder="..." />
                 <marker date="1389760223000" expanded="true" signature="1189:1215" placeholder="..." />
               </folding>
@@ -67,15 +70,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/common.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,10 +90,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="86" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0">
+            <state line="368" column="22" selection-start="10566" selection-end="10566" vertical-scroll-proportion="0.81424147">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-1.10.1.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/vendor/jquery-1.10.1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9312" column="2" selection-start="260086" selection-end="260086" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.parallax-1.1.3.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="jquery.parallax-1.1.3.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/vendor/jquery.parallax-1.1.3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="23" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.5588235">
+            <state line="23" column="23" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,9 +163,9 @@
         <option value="$PROJECT_DIR$/js/vendor/jquery.slides.js" />
         <option value="$PROJECT_DIR$/scss/common.scss" />
         <option value="$PROJECT_DIR$/scss/style_desktop_1224px.scss" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/vendor/jquery.parallax-1.1.3.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -426,15 +429,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/vendor/jquery-1.10.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9495" column="7" selection-start="265004" selection-end="265004" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -504,27 +498,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/js/vendor/jquery.parallax-1.1.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="86" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0">
+        <state line="23" column="23" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="354" column="13" selection-start="13420" selection-end="13420" vertical-scroll-proportion="-15.0">
+        <state line="120" column="54" selection-start="4135" selection-end="4135" vertical-scroll-proportion="-13.125">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#section#0;n#section#1;n#section#1;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#section#0;n#section#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#section#0;n#section#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#section#0;n#section#0;n#div#0;n#section#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1389760223000" expanded="true" signature="1096:1344" placeholder="..." />
             <marker date="1389760223000" expanded="true" signature="1189:1215" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/vendor/jquery.parallax-1.1.3.js">
+    <entry file="file://$PROJECT_DIR$/js/vendor/jquery-1.10.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="23" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.5588235">
+        <state line="9312" column="2" selection-start="260086" selection-end="260086" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="368" column="22" selection-start="10566" selection-end="10566" vertical-scroll-proportion="0.81424147">
           <folding />
         </state>
       </provider>

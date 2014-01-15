@@ -366,5 +366,6 @@ $(function () {
         $('.balloon').stop().fadeTo(300, 0);
       });
   });
+  $('.balloon').hide();
 });
 
