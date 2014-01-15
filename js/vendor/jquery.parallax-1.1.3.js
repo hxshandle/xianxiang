@@ -32,7 +32,12 @@
     //get the starting position of each element to have parallax applied to it
     $this.each(function () {
       firstTop = $this.offset().top;
-      originalBackgroundPosY = $this.css("background-position").split(" ")[1];
+      if($this.css("background-position")){
+        originalBackgroundPosY = $this.css("background-position").split(" ")[1];
+      }else{
+        // fix IE issue;
+        originalBackgroundPosY = $this.css("background-position-y");
+      }
     });
 
     if (outerHeight) {
