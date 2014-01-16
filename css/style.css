@@ -8,6 +8,9 @@
   .left {
     float: left; }
 
+  .hide {
+    display: none; }
+
   .right {
     float: right; }
 
@@ -461,11 +464,109 @@
       width: 100%;
       height: 880px;
       background-color: #fff9f7; }
-      #mainBody #products .container .nav-bar {
+      #mainBody #products .container .gallery-nav {
+        width: 100%;
         text-align: center;
-        margin-top: 220px;
+        position: absolute;
+        top: 180px;
+        z-index: 99998; }
+        #mainBody #products .container .gallery-nav .gallery-nav-inner {
+          margin: 0 auto; }
+          #mainBody #products .container .gallery-nav .gallery-nav-inner a {
+            text-decoration: none;
+            color: #666;
+            font-size: 12px;
+            font-family: Microsoft YaHei;
+            cursor: pointer;
+            padding: 0 20px; }
+            #mainBody #products .container .gallery-nav .gallery-nav-inner a:hover {
+              color: #638273; }
+            #mainBody #products .container .gallery-nav .gallery-nav-inner a.active {
+              color: #638273; }
+          #mainBody #products .container .gallery-nav .gallery-nav-inner .split {
+            width: 1px;
+            height: 8px;
+            border-right: 1px solid #638273;
+            display: inline-block; }
+      #mainBody #products .container .nav-bar, #mainBody #products .container .collocation-nav-bar {
+        text-align: center;
+        margin-top: 770px;
         position: absolute;
         width: 100%; }
+      #mainBody #products .container .prod-collocation {
+        position: relative;
+        height: 560px; }
+        #mainBody #products .container .prod-collocation .scroll-collocation {
+          width: 3000px;
+          clear: both;
+          position: absolute;
+          top: 220px;
+          left: 0; }
+          #mainBody #products .container .prod-collocation .scroll-collocation .collocation-show {
+            float: left;
+            padding-right: 1px;
+            position: relative; }
+            #mainBody #products .container .prod-collocation .scroll-collocation .collocation-show a:focus {
+              outline: none; }
+            #mainBody #products .container .prod-collocation .scroll-collocation .collocation-show a img {
+              border: 0px; }
+            #mainBody #products .container .prod-collocation .scroll-collocation .collocation-show .zoom {
+              position: absolute;
+              left: 132px;
+              top: 220px;
+              display: inline-block;
+              width: 76px;
+              height: 91px;
+              background: url(../img/zoom.png) no-repeat;
+              display: none;
+              cursor: pointer; }
+            #mainBody #products .container .prod-collocation .scroll-collocation .collocation-show .image-overlay {
+              position: absolute;
+              display: block;
+              color: aliceblue;
+              background: rgba(0, 0, 0, 0.2);
+              width: 330px;
+              height: 530px;
+              top: 0px;
+              left: 0px;
+              cursor: pointer; }
+      #mainBody #products .container .prod-video {
+        position: relative;
+        height: 560px; }
+        #mainBody #products .container .prod-video .scroll-video {
+          width: 3000px;
+          clear: both;
+          position: absolute;
+          top: 220px;
+          left: 0; }
+          #mainBody #products .container .prod-video .scroll-video .video-show {
+            float: left;
+            padding-right: 1px;
+            position: relative; }
+            #mainBody #products .container .prod-video .scroll-video .video-show a:focus {
+              outline: none; }
+            #mainBody #products .container .prod-video .scroll-video .video-show a img {
+              border: 0px; }
+            #mainBody #products .container .prod-video .scroll-video .video-show .zoom {
+              position: absolute;
+              left: 132px;
+              top: 220px;
+              display: inline-block;
+              width: 76px;
+              height: 91px;
+              background: url(../img/zoom.png) no-repeat;
+              display: none;
+              cursor: pointer; }
+            #mainBody #products .container .prod-video .scroll-video .video-show .image-overlay {
+              position: absolute;
+              display: block;
+              color: aliceblue;
+              background: rgba(0, 0, 0, 0.2);
+              width: 330px;
+              height: 530px;
+              top: 0px;
+              left: 0px;
+              cursor: pointer; }
       #mainBody #products .container .prod-outer {
         position: relative;
         height: 560px; }

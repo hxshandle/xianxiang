@@ -42,7 +42,7 @@
   improve your experience.</p>
 <![endif]-->
 
-<section id="landing">
+<section id="landing" style="display:none">
   <section class="container">
     <section id="landing-cookies" style="display:none">
       <div class="cookies" id="landing-1"></div>
@@ -302,13 +302,25 @@
       <div class="spliter"></div>
     </section>
 
+    <section class="gallery-nav">
+      <div class="gallery-nav-inner">
+          <a href="javascript:void(0);" class="rb active prod-switcher" data-slider-name="prod-outer">大片展示</a>
+          <span class="split"></span>
+          <a href="javascript:void(0);" class="rb prod-switcher" data-slider-name="prod-collocation">搭配</a>
+          <span class="split"></span>
+          <a href="javascript:void(0);" class="prod-switcher" data-slider-name="prod-video">视频</a>
+      </div>
+    </section>
+
     <!-- flating cookies -->
     <section id="products-cookies">
       <div id="product-cookie-1" class="cookies"></div>
       <div id="product-cookie-2" class="cookies"></div>
       <div id="product-cookie-3" class="cookies"></div>
     </section>
+	
 
+	<!--Products-->
     <div class="prod-outer">
       <section class="scroll-prods">
         <div class="prod-show" id="prod-0">
@@ -361,11 +373,135 @@
           </a>
         </div>
       </section>
+      <div class="nav-bar">
+        <a id="prod-prev" data-ref="scroll-prods" class="slidesjs-previous slidesjs-navigation scroll-nav-prev" href="javascript:;"></a>
+        <a id="prod-next" data-ref="scroll-prods" class="slidesjs-next slidesjs-navigation scroll-nav-next" href="javascript:;"></a>
+      </div>
     </div>
-    <div class="nav-bar">
-      <a id="prod-prev" class="slidesjs-previous slidesjs-navigation" href="javascript:;"></a>
-      <a id="prod-next" class="slidesjs-next slidesjs-navigation" href="javascript:;"></a>
+	<!--End of products sliders-->
+	
+	
+	<!--collocation-->
+    <div class="prod-collocation hide">
+      <div class="scroll-collocation">
+        <div class="collocation-show" id="collocation-0">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+        <div class="collocation-show" id="collocation-1">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+        <div class="collocation-show" id="collocation-2">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+        <div class="collocation-show" id="collocation-3">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+        <div class="collocation-show" id="collocation-4">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+        <div class="collocation-show" id="collocation-5">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+        <div class="collocation-show" id="collocation-6">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+      </div>
+      <div class="collocation-nav-bar">
+        <a id="collocation-prev" data-ref = "scroll-collocation" class="slidesjs-previous slidesjs-navigation scroll-nav-prev" href="javascript:;"></a>
+        <a id="collocation--next" data-ref = "scroll-collocation" class="slidesjs-next slidesjs-navigation scroll-nav-next" href="javascript:;"></a>
+      </div>
     </div>
+	
+	<!--End of collocation-->
+	
+	<!--video-->
+    <div class="prod-video hide">
+      <div class="scroll-video">
+        <div class="video-show" id="video-0">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+        <div class="video-show" id="video-1">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+        <div class="video-show" id="video-2">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+        <div class="video-show" id="video-3">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+        <div class="video-show" id="video-4">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+        <div class="video-show" id="video-5">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+        <div class="video-show" id="video-6">
+          <a href="img/prod-girl-2.png">
+            <img src="img/prod-girl-2.png" alt=""/>
+            <span class="zoom"> </span>
+            <span class="image-overlay"> </span>
+          </a>
+        </div>
+      </div>
+      <div class="collocation-nav-bar">
+        <a id="video-prev" data-ref = "scroll-video" class="slidesjs-previous slidesjs-navigation scroll-nav-prev" href="javascript:;"></a>
+        <a id="video-next" data-ref = "scroll-video" class="slidesjs-next slidesjs-navigation scroll-nav-next" href="javascript:;"></a>
+      </div>
+    </div>
+	<!--End of video-->
+    
   </section>
 
 </section>

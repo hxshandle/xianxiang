@@ -6,12 +6,11 @@
     min-width: 1000px;
     width: 100%;
 
-
-    .scroll-down{
-      color:#999;
+    .scroll-down {
+      color: #999;
       font-family: Georgia, serif;
       font-style: italic;
-      padding-top:60px;
+      padding-top: 60px;
     }
     #landing-cookies {
       min-width: 1000px;
@@ -362,7 +361,6 @@
       height: 880px;
       overflow: hidden;
 
-
       #about-cookies {
         #about-cookie-1 {
           background: url(../img/cookies/about-cookie-1.png) no-repeat 0 0;
@@ -563,7 +561,7 @@
             height: 300px;
             p {
               font-size: 12px;
-              color:#666666;
+              color: #666666;
             }
           }
           #news-nav-bar {
@@ -597,12 +595,153 @@
       height: 880px;
       background-color: #fff9f7;
 
-      .nav-bar {
+      .gallery-nav {
+        width: 100%;
         text-align: center;
-        margin-top: 220px;
+        position: absolute;
+        top:180px;
+        z-index: 99998;
+        .gallery-nav-inner {
+          margin: 0 auto;
+          a {
+            text-decoration:none;
+            color: #666;
+            font-size: 12px;
+            font-family: Microsoft YaHei;
+            cursor: pointer;
+            padding:0 20px;
+
+            &:hover{
+              color: #638273;
+            }
+
+            &.active{
+              color: #638273;
+            }
+          }// end of a
+          .split{
+            width:1px;
+            height: 8px;
+            border-right:1px solid #638273;
+            display: inline-block;
+          }
+        }
+      }
+
+      .nav-bar,.collocation-nav-bar {
+        text-align: center;
+        margin-top: 770px;
         position: absolute;
         width: 100%;
       }
+      // start collocation
+      .prod-collocation {
+        position: relative;
+        height: 560px;
+        .scroll-collocation {
+          width: 3000px;
+          clear: both;
+          position: absolute;
+          top: 220px;
+          left: 0;
+          .collocation-show {
+            float: left;
+            padding-right: 1px;
+            position: relative;
+
+            a {
+              &:focus {
+                outline: none;
+              }
+              img {
+                border: 0px;
+              }
+            }
+
+            .zoom {
+              position: absolute;
+              left: 132px;
+              top: 220px;
+              display: inline-block;
+              width: 76px;
+              height: 91px;
+              background: url(../img/zoom.png) no-repeat;
+              display: none;
+              cursor: pointer;
+            }
+
+            .image-overlay {
+              position: absolute;
+              display: block;
+              color: aliceblue;
+              background: rgba(0, 0, 0, 0.2);
+              width: 330px;
+              height: 530px;
+              top: 0px;
+              left: 0px;
+              cursor: pointer;
+            }
+          }
+          // end of collocation-show
+        }
+        // end of scroll_ulNew
+      }
+      // end of collocation
+
+
+      // start video
+      .prod-video {
+        position: relative;
+        height: 560px;
+        .scroll-video {
+          width: 3000px;
+          clear: both;
+          position: absolute;
+          top: 220px;
+          left: 0;
+          .video-show {
+            float: left;
+            padding-right: 1px;
+            position: relative;
+
+            a {
+              &:focus {
+                outline: none;
+              }
+              img {
+                border: 0px;
+              }
+            }
+
+            .zoom {
+              position: absolute;
+              left: 132px;
+              top: 220px;
+              display: inline-block;
+              width: 76px;
+              height: 91px;
+              background: url(../img/zoom.png) no-repeat;
+              display: none;
+              cursor: pointer;
+            }
+
+            .image-overlay {
+              position: absolute;
+              display: block;
+              color: aliceblue;
+              background: rgba(0, 0, 0, 0.2);
+              width: 330px;
+              height: 530px;
+              top: 0px;
+              left: 0px;
+              cursor: pointer;
+            }
+          }
+          // end of video-show
+        }
+        // end of scroll_ulNew
+      }
+      // end of video
 
       .prod-outer {
         position: relative;

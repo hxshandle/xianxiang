@@ -64,6 +64,9 @@ $(function () {
   $(".prod-show a").colorbox({
     rel:".prod-show a"
   });
+  $(".collocation-show a").colorbox({
+    rel:".collocation-show a"
+  });
   $('#header .links a,.scroll-down a').smoothScroll();
 
   $("#province-sel").selectbox({
@@ -74,7 +77,7 @@ $(function () {
   var currentShowProd = null;
   var lastShowProd = null;
 
-  $(".scroll-prods div").on('mouseover', function () {
+  $(".prod-show,.collocation-show,.video-show").on('mouseover', function () {
     var $this = $(this);
     if(null !== currentShowProd && currentShowProd.attr("id") != $this.attr("id")){
       lastShowProd = currentShowProd;
@@ -289,40 +292,61 @@ $(function () {
 
 //product scroll
 $(function () {
+
+  // product switcher
+
+  $(".prod-switcher").click(function(){
+    var $this = $(this);
+    if($this.hasClass("active")){
+      return;
+    }
+    var lastSlider = $(".prod-switcher").filter(".active").data("slider-name");
+    var sliderName = $this.data("slider-name");
+    $(".prod-switcher").filter(".active").removeClass("active");
+    $this.addClass("active");
+    $("."+lastSlider).stop().fadeOut(400,function(){
+      $("."+sliderName).fadeIn();
+    });
+  });
+
   var scrollUlWidth = $(window).width() / 4,
     scrollUlLeft = 0,
     prevAllow = true,
     nextAllow = true;
   scrollUlWidth = 330;
-  $("#prod-prev").click(function () {
+  $(".scroll-nav-prev").click(function () {
     if (prevAllow) {
       prevAllow = false;
+      var $this = $(this);
+      var refClass ="." + $this.data("ref");
       scrollUlLeft = scrollUlLeft - scrollUlWidth;
-      $('.scroll-prods').css('left', scrollUlLeft);
-      $('.scroll-prods div:last').clone(true, true).prependTo('.scroll-prods');
-      $('.scroll-prods div:last').remove();
-      $('.scroll-prods').animate({
+      $(refClass).css('left', scrollUlLeft);
+      $(refClass+' div:last').clone(true, true).prependTo(refClass);
+      $(refClass+' div:last').remove();
+      $(refClass).animate({
           left: scrollUlLeft + scrollUlWidth
         },
         300, 'swing', function () {
-          scrollUlLeft = parseInt($('.scroll-prods').css('left'), 10);
+          scrollUlLeft = parseInt($(refClass).css('left'), 10);
           prevAllow = true;
         })
     }
   });
 
-  $('#prod-next').click(function () {
+  $('.scroll-nav-next').click(function () {
     if (nextAllow) {
+      var $this = $(this);
+      var refClass ="." + $this.data("ref");
       nextAllow = false;
-      $('.scroll-prods').animate({
+      $(refClass).animate({
           left: scrollUlLeft - scrollUlWidth
         },
         300, 'swing', function () {
-          scrollUlLeft = parseInt($('.scroll-prods').css('left'), 10);
+          scrollUlLeft = parseInt($(refClass).css('left'), 10);
           scrollUlLeft = scrollUlLeft + scrollUlWidth;
-          $('.scroll-prods').css('left', scrollUlLeft);
-          $('.scroll-prods div:first').clone(true, true).appendTo('.scroll-prods');
-          $('.scroll-prods div:first').remove();
+          $(refClass).css('left', scrollUlLeft);
+          $(refClass + ' div:first').clone(true, true).appendTo(refClass);
+          $(refClass + ' div:first').remove();
           nextAllow = true;
         })
     }
