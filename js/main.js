@@ -323,6 +323,7 @@ $(function () {
     enableAutosize: true,
     pluginPath: '/sites/xianxiang/player/',
     flashName: 'flashmediaelement.swf',
+    features: ['playpause','progress','current','duration','tracks','volume'],
     plugins: ['flash'],
     success: function (player1, node) {
       setTimeout(function () {
