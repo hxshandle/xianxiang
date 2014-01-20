@@ -330,8 +330,8 @@ $(function () {
     var poster = $this.data("poster");
     var videoTemplate = '<video id = "video-player" width="713" height="530" poster="' + poster + '" controls="controls" preload="none">';
     videoTemplate += '<source type="video/mp4" src="' + videoSrc + '"/>';
-    videoTemplate += '<object width="713" height="530" type="application/x-shockwave-flash" data="player/flashmediaelement.swf">';
-    videoTemplate += '<param name="movie" value="player/flashmediaelement.swf"/>';
+    videoTemplate += '<object width="713" height="530" type="application/x-shockwave-flash" data="http://repo.maomaomikt.com/sites/xianxiang/player/flashmediaelement.swf">';
+    videoTemplate += '<param name="movie" value="http://repo.maomaomikt.com/sites/xianxiang/player/flashmediaelement.swf"/>';
     videoTemplate += '<param name="flashvars" value="controls=true&file=' + videoSrc + '"/>';
     videoTemplate += '<img src="' + poster + '" width="713" height="530" title="No video playback capabilities"/>';
     videoTemplate += '</object>';
