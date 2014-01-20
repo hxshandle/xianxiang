@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="xianxiang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,7 +87,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="334" column="34" selection-start="9409" selection-end="9409" vertical-scroll-proportion="0.63981044">
+            <state line="335" column="98" selection-start="9573" selection-end="9573" vertical-scroll-proportion="0.6635071">
               <folding />
             </state>
           </provider>
@@ -550,7 +551,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="334" column="34" selection-start="9409" selection-end="9409" vertical-scroll-proportion="0.63981044">
+        <state line="335" column="98" selection-start="9573" selection-end="9573" vertical-scroll-proportion="0.6635071">
           <folding />
         </state>
       </provider>
