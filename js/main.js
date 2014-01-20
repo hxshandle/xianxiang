@@ -299,36 +299,60 @@ $(function () {
     });
   });
 
-  function _onVideoPlay(media, player) {
-    var $media = $(media);
-    $media.css("background", "#000");
-  }
-
 
   // prod video
-  $('video').mediaelementplayer({
+  /*
+   $('video').mediaelementplayer({
+   videoWidth: 713,
+   videoHeight: 530,
+   success: function (media, node, player) {
+   console.log(node);
+   console.log(player);
+   var $media = $(media);
+   $media.on("play", function () {
+   _onVideoPlay(media, player);
+   });
+   }
+   });
+   */
+
+
+  var videoTemplate = '<video id = "video-player" width="713" height="530" poster="img/transparent_10X10.png" data-poster="img/video-thumb-1.png" controls="controls" preload="none">';
+  videoTemplate += '<source type="video/mp4" src="videos/demo.mp4"/>';
+  videoTemplate += '<track kind="subtitles" src="subtitles.srt" srclang="en"/>';
+  videoTemplate += '<object width="713" height="530" type="application/x-shockwave-flash" data="player/flashmediaelement.swf">';
+  videoTemplate += '<param name="movie" value="player/flashmediaelement.swf"/>';
+  videoTemplate += '<param name="flashvars" value="controls=true&file=myvideo.mp4"/>';
+  videoTemplate += '<img src="img/video-thumb-1.png" width="713" height="530" title="No video playback capabilities"/>';
+  videoTemplate += '</object>';
+  videoTemplate += '</video>';
+
+  var videoOptions = {
     videoWidth: 713,
-    videoHeight: 530,
-    success: function (media, node, player) {
-      console.log(node);
-      console.log(player);
-      var $media = $(media);
-      $media.on("play", function () {
-        _onVideoPlay(media, player);
-      });
-    }
+    videoHeight: 530
+  };
+
+
+  // on video click
+  $(".video-play").click(function () {
+    var $this = $(this);
+    var videoSrc = $this.data("source");
+    $.colorbox({html: videoTemplate, onComplete: function () {
+      var player = new MediaElementPlayer('#video-player');
+      player.pause();
+      player.setSrc('/videos/demo.mp4');
+      player.play();
+    }});
+
   });
 
-  function changeVideoBg(){
+  function changeVideoBg() {
     var $this = $(this);
     var bgImg = $this.data("poster");
     var bg = "url(" + bgImg + ") no-repeat center center";
     $this.css("background", bg);
   }
 
-  $("video").each(function () {
-    changeVideoBg.call(this);
-  });
 
   var scrollUlWidth = $(window).width() / 4,
     scrollUlLeft = 0,
@@ -342,33 +366,8 @@ $(function () {
       var scrollUlWidth = parseInt($(refClass + " img").css("width"));
       scrollUlLeft = scrollUlLeft - scrollUlWidth;
       $(refClass).css('left', scrollUlLeft);
-      if (refClass.indexOf("video") > 1) {
-        var _optNode = $(refClass + '>div:last');
-        var _cloneNode = _optNode.clone(true, true);
-        var _player = $("video", _optNode).data("mediaelementplayer");
-        _player.pause();
-        _player.remove();
-        $("video", _optNode).data("mediaelementplayer", null);
-        _cloneNode.prependTo(refClass);
-        var _$newNode = $("video", _cloneNode);
-        _$newNode.mediaelementplayer({
-          videoWidth: 713,
-          videoHeight: 530,
-          success: function (media, node, player) {
-            console.log(node);
-            console.log(player);
-            var $media = $(media);
-            $media.on("play", function () {
-              _onVideoPlay(media, player);
-            });
-          }
-        });
-        changeVideoBg.call(_$newNode[0]);
-        $(refClass + '>div:last').remove();
-      } else {
-        $(refClass + ' div:last').clone(true, true).prependTo(refClass);
-        $(refClass + ' div:last').remove();
-      }
+      $(refClass + ' div:last').clone(true, true).prependTo(refClass);
+      $(refClass + ' div:last').remove();
       $(refClass).animate({
           left: scrollUlLeft + scrollUlWidth
         },

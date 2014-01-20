@@ -551,6 +551,15 @@
               border: 0px;
               width: 713px;
               height: 530px; }
+            #mainBody #products .container .prod-video .scroll-video .video-show a .big-play {
+              background: url(../img/bigplay.png) no-repeat;
+              width: 100px;
+              height: 100px;
+              position: absolute;
+              left: 307px;
+              top: 215px; }
+            #mainBody #products .container .prod-video .scroll-video .video-show a:hover .big-play {
+              background: url(../img/bigplay.png) no-repeat 0 -100px; }
             #mainBody #products .container .prod-video .scroll-video .video-show .video-pause {
               position: absolute;
               left: 310px;
