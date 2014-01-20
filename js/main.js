@@ -326,16 +326,6 @@ $(function () {
     features: ['playpause','progress','current','duration','tracks','volume'],
     plugins: ['flash'],
     success: function (mediaElement, node) {
-      if (mediaElement.pluginType == 'flash') {
-        mediaElement.addEventListener('canplay', function() {
-          // Player is ready
-          mediaElement.play();
-        }, false);
-      }
-      setTimeout(function () {
-        $('.mejs-overlay-button').trigger('click');
-        mediaElement.play()
-      }, 1000);
     }
   };
 
