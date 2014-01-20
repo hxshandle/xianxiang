@@ -319,7 +319,8 @@ $(function () {
 
   var videoOptions = {
     videoWidth: 713,
-    videoHeight: 530
+    videoHeight: 530,
+    enableAutosize: true
   };
 
 
@@ -332,7 +333,7 @@ $(function () {
     videoTemplate += '<source type="video/mp4" src="' + videoSrc + '"/>';
     videoTemplate += '<object width="713" height="530" type="application/x-shockwave-flash" data="http://repo.maomaomikt.com/sites/xianxiang/player/flashmediaelement.swf">';
     videoTemplate += '<param name="movie" value="http://repo.maomaomikt.com/sites/xianxiang/player/flashmediaelement.swf"/>';
-    videoTemplate += '<param name="flashvars" value="controls=true&file=' + videoSrc + '"/>';
+    videoTemplate += '<param name="flashvars" value="controls=true&file=/sites/xianxiang/' + videoSrc + '"/>';
     videoTemplate += '<img src="' + poster + '" width="713" height="530" title="No video playback capabilities"/>';
     videoTemplate += '</object>';
     videoTemplate += '</video>';
