@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bigplay.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style_desktop_1224px.scss" afterPath="$PROJECT_DIR$/scss/style_desktop_1224px.scss" />
     </list>
     <ignored path="xianxiang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,7 +87,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="342" column="20" selection-start="9932" selection-end="9932" vertical-scroll-proportion="0.8293839">
+            <state line="342" column="42" selection-start="9954" selection-end="9954" vertical-scroll-proportion="0.8293839">
               <folding />
             </state>
           </provider>
@@ -553,7 +551,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="342" column="20" selection-start="9932" selection-end="9932" vertical-scroll-proportion="0.8293839">
+        <state line="342" column="42" selection-start="9954" selection-end="9954" vertical-scroll-proportion="0.8293839">
           <folding />
         </state>
       </provider>

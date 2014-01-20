@@ -340,7 +340,7 @@ $(function () {
     $.colorbox({html: videoTemplate, onComplete: function () {
       var player = new MediaElementPlayer('#video-player');
       player.pause();
-      player.setSrc('/videos/demo.mp4');
+      player.setSrc('http://repo.maomaomikt.com/sites/xianxiang/videos/demo.mp4');
       player.play();
     }});
 
