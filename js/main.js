@@ -345,7 +345,7 @@ $(function () {
     var $this = $(this);
     var videoSrc = $this.data("source");
     var poster = $this.data("poster");
-    var videoTemplate = '<video id = "video-player" width="713" height="530" poster="' + poster + '" controls="controls" preload="none">';
+    var videoTemplate = '<video id = "video-player" width="713" height="530" poster="' + poster + '" controls="controls" autoplay="true">';
     videoTemplate += '<source type="video/mp4" src="' + videoSrc + '"/>';
     videoTemplate += '<object width="713" height="530" type="application/x-shockwave-flash" data="/sites/xianxiang/player/flashmediaelement.swf">';
     videoTemplate += '<param name="movie" value="/sites/xianxiang/player/flashmediaelement.swf"/>';
