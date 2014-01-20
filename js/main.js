@@ -317,15 +317,6 @@ $(function () {
    */
 
 
-  var videoTemplate = '<video id = "video-player" width="713" height="530" poster="img/transparent_10X10.png" data-poster="img/video-thumb-1.png" controls="controls" preload="none">';
-  videoTemplate += '<source type="video/mp4" src="videos/demo.mp4"/>';
-  videoTemplate += '<object width="713" height="530" type="application/x-shockwave-flash" data="player/flashmediaelement.swf">';
-  videoTemplate += '<param name="movie" value="player/flashmediaelement.swf"/>';
-  videoTemplate += '<param name="flashvars" value="controls=true&file=myvideo.mp4"/>';
-  videoTemplate += '<img src="img/video-thumb-1.png" width="713" height="530" title="No video playback capabilities"/>';
-  videoTemplate += '</object>';
-  videoTemplate += '</video>';
-
   var videoOptions = {
     videoWidth: 713,
     videoHeight: 530
@@ -336,11 +327,19 @@ $(function () {
   $(".video-play").click(function () {
     var $this = $(this);
     var videoSrc = $this.data("source");
+    var poster = $this.data("poster");
+    var videoTemplate = '<video id = "video-player" width="713" height="530" poster="' + poster + '" controls="controls" preload="none">';
+    videoTemplate += '<source type="video/mp4" src="' + videoSrc + '"/>';
+    videoTemplate += '<object width="713" height="530" type="application/x-shockwave-flash" data="player/flashmediaelement.swf">';
+    videoTemplate += '<param name="movie" value="player/flashmediaelement.swf"/>';
+    videoTemplate += '<param name="flashvars" value="controls=true&file=' + videoSrc + '"/>';
+    videoTemplate += '<img src="' + poster + '" width="713" height="530" title="No video playback capabilities"/>';
+    videoTemplate += '</object>';
+    videoTemplate += '</video>';
     $.colorbox({html: videoTemplate, onComplete: function () {
-      var player = new MediaElementPlayer('#video-player');
-      player.pause();
-      player.setSrc('http://repo.maomaomikt.com/sites/xianxiang/videos/demo.mp4');
-      player.play();
+      var player = new MediaElementPlayer('#video-player', videoOptions);
+      //player.pause();
+      //player.play();
     }});
 
   });
