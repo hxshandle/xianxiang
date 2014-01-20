@@ -325,10 +325,16 @@ $(function () {
     flashName: 'flashmediaelement.swf',
     features: ['playpause','progress','current','duration','tracks','volume'],
     plugins: ['flash'],
-    success: function (player1, node) {
+    success: function (mediaElement, node) {
+      if (mediaElement.pluginType == 'flash') {
+        mediaElement.addEventListener('canplay', function() {
+          // Player is ready
+          mediaElement.play();
+        }, false);
+      }
       setTimeout(function () {
         $('.mejs-overlay-button').trigger('click');
-        player1.play()
+        mediaElement.play()
       }, 1000);
     }
   };
