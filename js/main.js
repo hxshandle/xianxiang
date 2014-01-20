@@ -319,7 +319,6 @@ $(function () {
 
   var videoTemplate = '<video id = "video-player" width="713" height="530" poster="img/transparent_10X10.png" data-poster="img/video-thumb-1.png" controls="controls" preload="none">';
   videoTemplate += '<source type="video/mp4" src="videos/demo.mp4"/>';
-  videoTemplate += '<track kind="subtitles" src="subtitles.srt" srclang="en"/>';
   videoTemplate += '<object width="713" height="530" type="application/x-shockwave-flash" data="player/flashmediaelement.swf">';
   videoTemplate += '<param name="movie" value="player/flashmediaelement.swf"/>';
   videoTemplate += '<param name="flashvars" value="controls=true&file=myvideo.mp4"/>';
