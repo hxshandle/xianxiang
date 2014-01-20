@@ -324,7 +324,11 @@ $(function () {
     pluginPath: '/sites/xianxiang/player/',
     flashName: 'flashmediaelement.swf',
     plugins: ['flash'],
-    success:function(player1,node){
+    success: function (player1, node) {
+      setTimeout(function () {
+        $('.mejs-overlay-button').trigger('click');
+        player1.play()
+      }, 1000);
     }
   };
 

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="xianxiang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -10,7 +11,7 @@
     <file path="/index.html" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1390210462693" ignored="false" />
     <file path="/style_desktop_1224px.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1390201748212" ignored="false" />
     <file path="/dummy.xml" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1389852771152" ignored="false" />
-    <file path="/main.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1390213719972" ignored="false" />
+    <file path="/main.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1390213836796" ignored="false" />
     <file path="/common.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1389853356684" ignored="false" />
     <file path="/style.scss" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387075619623" ignored="false" />
     <file path="/jquery.selectbox-0.2.js" changelist="7b04ef00-b7a2-4d4a-ba2c-311cda0f220b" time="1387176501253" ignored="false" />
@@ -86,7 +87,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="322" column="2" selection-start="8820" selection-end="8820" vertical-scroll-proportion="0.30805686">
+            <state line="328" column="8" selection-start="9031" selection-end="9031" vertical-scroll-proportion="0.4028436">
               <folding />
             </state>
           </provider>
@@ -550,7 +551,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="322" column="2" selection-start="8820" selection-end="8820" vertical-scroll-proportion="0.30805686">
+        <state line="328" column="8" selection-start="9031" selection-end="9031" vertical-scroll-proportion="0.4028436">
           <folding />
         </state>
       </provider>
