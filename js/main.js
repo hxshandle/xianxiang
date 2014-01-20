@@ -324,8 +324,7 @@ $(function () {
     pluginPath: '/sites/xianxiang/player/',
     flashName: 'flashmediaelement.swf',
     plugins: ['flash'],
-    success:function(player,node){
-      player.play();
+    success:function(player1,node){
     }
   };
 
@@ -345,22 +344,12 @@ $(function () {
     videoTemplate += '</video>';
     $.colorbox({html: videoTemplate, onComplete: function () {
       var player = new MediaElementPlayer('#video-player', videoOptions);
-      //player.pause();
-      //player.play();
     }});
 
   });
 
-  function changeVideoBg() {
-    var $this = $(this);
-    var bgImg = $this.data("poster");
-    var bg = "url(" + bgImg + ") no-repeat center center";
-    $this.css("background", bg);
-  }
 
-
-  var scrollUlWidth = $(window).width() / 4,
-    scrollUlLeft = 0,
+  var scrollUlLeft = 0,
     prevAllow = true,
     nextAllow = true;
   $(".scroll-nav-prev").click(function () {
