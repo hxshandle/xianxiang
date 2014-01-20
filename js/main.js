@@ -320,7 +320,13 @@ $(function () {
   var videoOptions = {
     videoWidth: 713,
     videoHeight: 530,
-    enableAutosize: true
+    enableAutosize: true,
+    pluginPath: '/sites/xianxiang/player/',
+    flashName: 'flashmediaelement.swf',
+    plugins: ['flash'],
+    success:function(player,node){
+      player.play();
+    }
   };
 
 
