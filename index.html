@@ -31,9 +31,11 @@
   <link rel="stylesheet" href="css/jquery.jscrollpane.css">
   <link rel="stylesheet" href="css/colorbox.css">
   <link rel="stylesheet" href="css/jquery.selectbox.css">
+  <link rel="stylesheet" href="css/mediaelementplayer.css">
   <link rel="stylesheet" href="css/style.css">
-
+  <script src="js/vendor/jquery-1.10.1.min.js"></script>
   <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="js/vendor/mediaelement-and-player.min.js"></script>
 </head>
 <body>
 <!--[if lt IE 7]>
@@ -304,11 +306,11 @@
 
     <section class="gallery-nav">
       <div class="gallery-nav-inner">
-          <a href="javascript:void(0);" class="rb active prod-switcher" data-slider-name="prod-outer">大片展示</a>
-          <span class="split"></span>
-          <a href="javascript:void(0);" class="rb prod-switcher" data-slider-name="prod-collocation">搭配</a>
-          <span class="split"></span>
-          <a href="javascript:void(0);" class="prod-switcher" data-slider-name="prod-video">视频</a>
+        <a href="javascript:void(0);" class="rb active prod-switcher" data-slider-name="prod-outer">大片展示</a>
+        <span class="split"></span>
+        <a href="javascript:void(0);" class="rb prod-switcher" data-slider-name="prod-collocation">搭配</a>
+        <span class="split"></span>
+        <a href="javascript:void(0);" class="prod-switcher" data-slider-name="prod-video">视频</a>
       </div>
     </section>
 
@@ -318,9 +320,9 @@
       <div id="product-cookie-2" class="cookies"></div>
       <div id="product-cookie-3" class="cookies"></div>
     </section>
-	
 
-	<!--Products-->
+
+    <!--Products-->
     <div class="prod-outer">
       <section class="scroll-prods">
         <div class="prod-show" id="prod-0">
@@ -374,14 +376,16 @@
         </div>
       </section>
       <div class="nav-bar">
-        <a id="prod-prev" data-ref="scroll-prods" class="slidesjs-previous slidesjs-navigation scroll-nav-prev" href="javascript:;"></a>
-        <a id="prod-next" data-ref="scroll-prods" class="slidesjs-next slidesjs-navigation scroll-nav-next" href="javascript:;"></a>
+        <a id="prod-prev" data-ref="scroll-prods" class="slidesjs-previous slidesjs-navigation scroll-nav-prev"
+           href="javascript:;"></a>
+        <a id="prod-next" data-ref="scroll-prods" class="slidesjs-next slidesjs-navigation scroll-nav-next"
+           href="javascript:;"></a>
       </div>
     </div>
-	<!--End of products sliders-->
-	
-	
-	<!--collocation-->
+    <!--End of products sliders-->
+
+
+    <!--collocation-->
     <div class="prod-collocation hide">
       <div class="scroll-collocation">
         <div class="collocation-show" id="collocation-0">
@@ -435,73 +439,81 @@
         </div>
       </div>
       <div class="collocation-nav-bar">
-        <a id="collocation-prev" data-ref = "scroll-collocation" class="slidesjs-previous slidesjs-navigation scroll-nav-prev" href="javascript:;"></a>
-        <a id="collocation--next" data-ref = "scroll-collocation" class="slidesjs-next slidesjs-navigation scroll-nav-next" href="javascript:;"></a>
+        <a id="collocation-prev" data-ref="scroll-collocation"
+           class="slidesjs-previous slidesjs-navigation scroll-nav-prev" href="javascript:;"></a>
+        <a id="collocation--next" data-ref="scroll-collocation"
+           class="slidesjs-next slidesjs-navigation scroll-nav-next" href="javascript:;"></a>
       </div>
     </div>
-	
-	<!--End of collocation-->
-	
-	<!--video-->
+
+    <!--End of collocation-->
+
+    <!--video-->
     <div class="prod-video hide">
       <div class="scroll-video">
         <div class="video-show" id="video-0">
-          <a href="img/prod-girl-2.png">
-            <img src="img/prod-girl-2.png" alt=""/>
-            <span class="zoom"> </span>
-            <span class="image-overlay"> </span>
-          </a>
+          <div>
+            <a href="javascript:void(0);">
+              <video width="713" height="530" poster="img/transparent_10X10.png" data-poster="img/video-thumb-1.png"
+                     controls="controls" preload="none">
+                <!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
+                <source type="video/mp4" src="videos/demo.mp4"/>
+                <!-- WebM/VP8 for Firefox4, Opera, and Chrome -->
+                <source type="video/webm" src="myvideo.webm"/>
+                <!-- Optional: Add subtitles for each language -->
+                <track kind="subtitles" src="subtitles.srt" srclang="en"/>
+                <!-- Optional: Add chapters -->
+                <track kind="chapters" src="chapters.srt" srclang="en"/>
+                <!-- Flash fallback for non-HTML5 browsers without JavaScript -->
+                <object width="713" height="530" type="application/x-shockwave-flash"
+                        data="player/flashmediaelement.swf">
+                  <param name="movie" value="player/flashmediaelement.swf"/>
+                  <param name="flashvars" value="controls=true&file=myvideo.mp4"/>
+                  <!-- Image as a last resort -->
+                  <img src="img/video-thumb-1.png" width="713" height="530" title="No video playback capabilities"/>
+                </object>
+              </video>
+              <span class="image-overlay"> </span>
+            </a>
+          </div>
         </div>
         <div class="video-show" id="video-1">
-          <a href="img/prod-girl-2.png">
-            <img src="img/prod-girl-2.png" alt=""/>
-            <span class="zoom"> </span>
-            <span class="image-overlay"> </span>
-          </a>
-        </div>
-        <div class="video-show" id="video-2">
-          <a href="img/prod-girl-2.png">
-            <img src="img/prod-girl-2.png" alt=""/>
-            <span class="zoom"> </span>
-            <span class="image-overlay"> </span>
-          </a>
-        </div>
-        <div class="video-show" id="video-3">
-          <a href="img/prod-girl-2.png">
-            <img src="img/prod-girl-2.png" alt=""/>
-            <span class="zoom"> </span>
-            <span class="image-overlay"> </span>
-          </a>
-        </div>
-        <div class="video-show" id="video-4">
-          <a href="img/prod-girl-2.png">
-            <img src="img/prod-girl-2.png" alt=""/>
-            <span class="zoom"> </span>
-            <span class="image-overlay"> </span>
-          </a>
-        </div>
-        <div class="video-show" id="video-5">
-          <a href="img/prod-girl-2.png">
-            <img src="img/prod-girl-2.png" alt=""/>
-            <span class="zoom"> </span>
-            <span class="image-overlay"> </span>
-          </a>
-        </div>
-        <div class="video-show" id="video-6">
-          <a href="img/prod-girl-2.png">
-            <img src="img/prod-girl-2.png" alt=""/>
-            <span class="zoom"> </span>
-            <span class="image-overlay"> </span>
-          </a>
+          <div>
+            <a href="javascript:void(0);">
+              <video width="713" height="530" poster="img/transparent_10X10.png" data-poster="img/video-thumb-1.png"
+                     controls="controls" preload="none">
+                <!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
+                <source type="video/mp4" src="videos/demo.mp4"/>
+                <!-- WebM/VP8 for Firefox4, Opera, and Chrome -->
+                <source type="video/webm" src="myvideo.webm"/>
+                <!-- Optional: Add subtitles for each language -->
+                <track kind="subtitles" src="subtitles.srt" srclang="en"/>
+                <!-- Optional: Add chapters -->
+                <track kind="chapters" src="chapters.srt" srclang="en"/>
+                <!-- Flash fallback for non-HTML5 browsers without JavaScript -->
+                <object width="713" height="530" type="application/x-shockwave-flash"
+                        data="player/flashmediaelement.swf">
+                  <param name="movie" value="player/flashmediaelement.swf"/>
+                  <param name="flashvars" value="controls=true&file=myvideo.mp4"/>
+                  <!-- Image as a last resort -->
+                  <img src="img/video-thumb-1.png" width="713" height="530" title="No video playback capabilities"/>
+                </object>
+              </video>
+              <span class="image-overlay"> </span>
+            </a>
+          </div>
+
         </div>
       </div>
       <div class="collocation-nav-bar">
-        <a id="video-prev" data-ref = "scroll-video" class="slidesjs-previous slidesjs-navigation scroll-nav-prev" href="javascript:;"></a>
-        <a id="video-next" data-ref = "scroll-video" class="slidesjs-next slidesjs-navigation scroll-nav-next" href="javascript:;"></a>
+        <a id="video-prev" data-ref="scroll-video" class="slidesjs-previous slidesjs-navigation scroll-nav-prev"
+           href="javascript:;"></a>
+        <a id="video-next" data-ref="scroll-video" class="slidesjs-next slidesjs-navigation scroll-nav-next"
+           href="javascript:;"></a>
       </div>
     </div>
-	<!--End of video-->
-    
+    <!--End of video-->
+
   </section>
 
 </section>
@@ -648,8 +660,6 @@
 </section>
 </section>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.js"><\/script>')</script>
 <!--
 <script src="js/vendor/bootstrap.min.js"></script>
 -->

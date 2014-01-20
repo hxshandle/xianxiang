@@ -537,6 +537,8 @@
           width: 3000px;
           clear: both;
           position: absolute;
+          overflow: hidden;
+          height: 530px;
           top: 220px;
           left: 0; }
           #mainBody #products .container .prod-video .scroll-video .video-show {
@@ -546,15 +548,16 @@
             #mainBody #products .container .prod-video .scroll-video .video-show a:focus {
               outline: none; }
             #mainBody #products .container .prod-video .scroll-video .video-show a img {
-              border: 0px; }
-            #mainBody #products .container .prod-video .scroll-video .video-show .zoom {
+              border: 0px;
+              width: 713px;
+              height: 530px; }
+            #mainBody #products .container .prod-video .scroll-video .video-show .video-pause {
               position: absolute;
-              left: 132px;
-              top: 220px;
+              left: 310px;
+              top: 218px;
               display: inline-block;
-              width: 76px;
-              height: 91px;
-              background: url(../img/zoom.png) no-repeat;
+              width: 94px;
+              height: 94px;
               display: none;
               cursor: pointer; }
             #mainBody #products .container .prod-video .scroll-video .video-show .image-overlay {
@@ -562,7 +565,7 @@
               display: block;
               color: aliceblue;
               background: rgba(0, 0, 0, 0.2);
-              width: 330px;
+              width: 713px;
               height: 530px;
               top: 0px;
               left: 0px;

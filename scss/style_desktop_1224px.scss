@@ -697,6 +697,8 @@
           width: 3000px;
           clear: both;
           position: absolute;
+          overflow: hidden;
+          height: 530px;
           top: 220px;
           left: 0;
           .video-show {
@@ -710,17 +712,19 @@
               }
               img {
                 border: 0px;
+                width:713px;
+                height:530px;
               }
             }
 
-            .zoom {
+            .video-pause {
               position: absolute;
-              left: 132px;
-              top: 220px;
+              left: 310px;
+              top: 218px;
               display: inline-block;
-              width: 76px;
-              height: 91px;
-              background: url(../img/zoom.png) no-repeat;
+              width: 94px;
+              height: 94px;
+              //background: url(../img/video-pause.png) no-repeat;
               display: none;
               cursor: pointer;
             }
@@ -730,7 +734,7 @@
               display: block;
               color: aliceblue;
               background: rgba(0, 0, 0, 0.2);
-              width: 330px;
+              width: 713px;
               height: 530px;
               top: 0px;
               left: 0px;
