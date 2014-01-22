@@ -47,7 +47,7 @@ $(function () {
   }));
   scrollController.addTween(".store-gallery", TweenMax.from($(".store-gallery"), 2, {
     css: {
-      opacity: "0",
+      opacity: "0"
     }
   }), 0, 300);
   scrollController.addTween(".login", TweenMax.from($(".login"), 2, {
@@ -68,11 +68,22 @@ $(function () {
     rel: ".collocation-show a"
   });
   $('#header .links a,.scroll-down a').smoothScroll();
+  $(".top-nav").hover(function () {
+      var $this = $(this);
+      var originalTxt = $this.text();
+      $this.data("original-txt",originalTxt);
+      $this.text($this.data("zh"));
+    },
+    function () {
+      var $this = $(this);
+      $this.text($this.data("original-txt"));
+    });
 
   $("#province-sel").selectbox({
     classHolder: "sbHolder province-sel"
   });
   $("#store-sel").selectbox();
+
 
   var currentShowProd = null;
   var lastShowProd = null;
@@ -126,21 +137,6 @@ $(function () {
 
   }
 
-  function toggleContactUs(scrollTop) {
-    var toggleEl = $("#contact-us-content");
-    var hasDisplay = toggleEl.data("hasDisplay");
-    if (!hasDisplay && scrollTop > toggleTop) {
-      toggleEl.data("hasDisplay", true);
-      toggleEl.slideDown();
-    }
-
-    if (hasDisplay && scrollTop < toggleTop) {
-      toggleEl.data("hasDisplay", false);
-      toggleEl.hide();
-    }
-
-  }
-
   function adjScrollPos() {
     var scrollTop = $(window).scrollTop();
     if (scrollTop > viewHeight - 60) {
@@ -157,10 +153,7 @@ $(function () {
           "top": (newTop + "px")
         },
         1000);
-      //$("#select-menu").css("top",(selTop+scrollTop-viewHeight)+"px");
     }
-    //contact us
-    //toggleContactUs(scrollTop);
   }
 
   //resize
@@ -323,7 +316,7 @@ $(function () {
     enableAutosize: true,
     pluginPath: '/sites/xianxiang/player/',
     flashName: 'flashmediaelement.swf',
-    features: ['playpause','progress','current','duration','tracks','volume'],
+    features: ['playpause', 'progress', 'current', 'duration', 'tracks', 'volume'],
     plugins: ['flash'],
     success: function (mediaElement, node) {
     }
@@ -361,8 +354,8 @@ $(function () {
       var scrollUlWidth = parseInt($(refClass + " img").css("width"));
       scrollUlLeft = scrollUlLeft - scrollUlWidth;
       $(refClass).css('left', scrollUlLeft);
-      $(refClass + ' div:last').clone(true, true).prependTo(refClass);
-      $(refClass + ' div:last').remove();
+      $(refClass + '>div:last').clone(true, true).prependTo(refClass);
+      $(refClass + '>div:last').remove();
       $(refClass).animate({
           left: scrollUlLeft + scrollUlWidth
         },
