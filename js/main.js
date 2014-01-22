@@ -68,15 +68,17 @@ $(function () {
     rel: ".collocation-show a"
   });
   $('#header .links a,.scroll-down a').smoothScroll();
-  $(".top-nav").hover(function () {
+  $("#header .links li").hover(function () {
       var $this = $(this);
-      var originalTxt = $this.text();
-      $this.data("original-txt",originalTxt);
-      $this.text($this.data("zh"));
+      var $a = $("a",$this);
+      var originalTxt = $a.text();
+      $a.data("original-txt",originalTxt);
+      $a.text($a.data("zh"));
     },
     function () {
       var $this = $(this);
-      $this.text($this.data("original-txt"));
+      var $a = $("a",$this);
+      $a.text($a.data("original-txt"));
     });
 
   $("#province-sel").selectbox({
