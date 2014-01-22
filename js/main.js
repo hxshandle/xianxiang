@@ -81,8 +81,33 @@ $(function () {
       $a.text($a.data("original-txt"));
     });
 
+
+  var province2store={
+    p1:[{id:"p1s1",name:"P1店铺1"},{id:"p1s2",name:"P1店铺2"}],
+    p2:[{id:"p2s1",name:"P2店铺1"},{id:"p2s2",name:"P2店铺2"}],
+    p3:[{id:"p3s1",name:"P3店铺1"},{id:"p3s2",name:"P3店铺2"}]
+  };
+  // please implementat this method to get the
+  // whole data from db. Please make sure to convert the data structure
+  // as the same as province2store.
+  function getStoreByProvince(id){
+    return province2store[id];
+  }
+
   $("#province-sel").selectbox({
-    classHolder: "sbHolder province-sel"
+    classHolder: "sbHolder province-sel",
+    onChange: function (val, inst){
+      var html = '<select class="jselect" name="store-sel" id="store-sel">';
+      var stores = getStoreByProvince(val);
+      for(var i = 0; i< stores.length;i++){
+        var store = stores[i];
+        html +='<option value="'+store.id+'">'+store.name+'</option>';
+      }
+      html +='</select>'
+      $("#boxStore").html(html);
+      $("#store-sel").selectbox();
+
+    }
   });
   $("#store-sel").selectbox();
 
@@ -295,21 +320,7 @@ $(function () {
   });
 
 
-  // prod video
-  /*
-   $('video').mediaelementplayer({
-   videoWidth: 713,
-   videoHeight: 530,
-   success: function (media, node, player) {
-   console.log(node);
-   console.log(player);
-   var $media = $(media);
-   $media.on("play", function () {
-   _onVideoPlay(media, player);
-   });
-   }
-   });
-   */
+
 
 
   var videoOptions = {
